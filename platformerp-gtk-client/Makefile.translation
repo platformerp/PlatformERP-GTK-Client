@@ -1,0 +1,32 @@
+LANG=fr
+PYTHON_FILES=$(shell find -name "*py")
+PYTHONC_FILES=$(shell find -name "*pyc")
+UI_FILES=bin/openerp.ui.h bin/win_error.ui.h
+APP=openerp-client
+LANGS=$(shell for i in `find bin/po -name "*.po"`; do basename $$i | cut -d'.' -f1; done;)
+INTLTOOL_EXTRACT=/usr/bin/intltool-extract
+
+.SUFFIXES:
+.SUFFIXES: .ui .ui.h
+
+.ui.ui.h:
+	$(INTLTOOL_EXTRACT) --type=gettext/glade $<
+
+all:
+
+clean:
+	rm -f bin/*bak $(PYTHONC_FILES)
+	rm -f $(UI_FILES)
+
+translate_get: $(UI_FILES)
+	xgettext --from-code=UTF-8 -k_ -kN_ -o bin/po/$(APP).pot $(PYTHON_FILES) $(UI_FILES)
+
+translate_set:
+	for i in $(LANGS); do msgfmt bin/po/$$i.po -o bin/share/locale/$$i/LC_MESSAGES/$(APP).mo; done;
+
+merge:
+	for i in $(LANGS); do msgmerge bin/po/$$i.po bin/po/$(APP).pot -o bin/po/$$i.po --strict; done;
+
+test:
+	echo $(LANGS)
+

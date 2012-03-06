@@ -1,0 +1,4065 @@
+# Czech translation for openobject-client
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the openobject-client package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-client\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-29 14:25+0530\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
+"Last-Translator: Jiří Hajda <robie@centrum.cz>\n"
+"Language-Team: openerp-i18n-czech <openerp-i18n-czech@lists.launchpad.net >\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-02-18 07:14+0000\n"
+"X-Generator: Launchpad (build 14814)\n"
+"Language: cs\n"
+
+#: bin/common/common.py:88
+msgid "Close current tip"
+msgstr "Zavřít aktuální tip"
+
+#: bin/common/common.py:89
+msgid ""
+"<span foreground=\"darkred\"><b>Close Current Tip:</b></span>\n"
+"This will hide the current tip. It will be displayed again next time you "
+"open this menu item, unless you disable all tips using the <b>'Menu "
+"Tips'</b> option in the user preferences."
+msgstr ""
+"<span foreground=\"darkred\"><b>Zavřít aktuální tip:</b></span>\n"
+"Tímto skryjete aktuální tip. Toto bude zobrazeno příště až otevřete tuto "
+"položku nabídky, pokud nezakážete všechny tipy pomocí volby <b>'Nabídky "
+"tipy'</b> v uživatelských předvolbách."
+
+#: bin/common/common.py:99
+msgid "Disable all tips"
+msgstr "Zakázat všechny tipy"
+
+#: bin/common/common.py:100
+msgid ""
+"<span foreground=\"darkred\"><b>Disable all tips:</b></span>\n"
+"This will disable the display of tips on all menu items.\n"
+"To re-enable tips you need to check the <b>'Menu Tips'</b> option in the "
+"user preferences."
+msgstr ""
+"<span foreground=\"darkred\"><b>Zakázat všechny tipy:</b></span>\n"
+"Tímto zakážete zobrazení tipů ve všech položkách nabídky.\n"
+"K znovupovlení tipů musíte zaškrtnout volbu <b>'Nabídka tipy'</b> v "
+"uživatelských předvolbách."
+
+#: bin/common/common.py:114 bin/common/common.py:116
+msgid "Tips"
+msgstr "Tipy"
+
+#: bin/common/common.py:167
+msgid "OpenERP Computing"
+msgstr "OperERP počítá"
+
+#: bin/common/common.py:186
+msgid "Operation in progress"
+msgstr "Zpracovávám"
+
+#: bin/common/common.py:190
+msgid ""
+"Please wait,\n"
+"this operation may take a while..."
+msgstr ""
+"Chvíli strpení,\n"
+"tato operace může chvíli trvat...."
+
+#: bin/common/common.py:224
+#, python-format
+msgid "Ensure that the file %s is correct"
+msgstr "Ujistěte se, že soubor %s je správný."
+
+#: bin/common/common.py:410
+msgid " has reported the following bug:\n"
+msgstr " nahlásil následující chybu:\n"
+
+#: bin/common/common.py:410
+msgid "remarks"
+msgstr "poznámky"
+
+#: bin/common/common.py:413
+msgid "Support request sent !"
+msgstr "Požadavek o podporu odeslán!"
+
+#: bin/common/common.py:436 bin/common/common.py:480
+msgid ""
+"\n"
+"<b>An unknown error has been reported.</b>\n"
+"\n"
+"<b>You do not have a valid OpenERP publisher warranty contract !</b>\n"
+"If you are using OpenERP in production, it is highly suggested to subscribe\n"
+"a publisher warranty program.\n"
+"\n"
+"The OpenERP publisher warranty contract provides you a bugfix guarantee and "
+"an\n"
+"automatic migration system so that we can fix your problems within a few\n"
+"hours. If you had a publisher warranty contract, this error would have been "
+"sent\n"
+"to the quality team of the OpenERP editor.\n"
+"\n"
+"The publisher warranty program offers you:\n"
+"* Automatic migrations on new versions,\n"
+"* A bugfix guarantee,\n"
+"* Monthly announces of potential bugs and their fixes,\n"
+"* Security alerts by email and automatic migration,\n"
+"* Access to the customer portal.\n"
+"\n"
+"You can use the link bellow for more information. The detail of the error\n"
+"is displayed on the second tab.\n"
+msgstr ""
+"\n"
+"<b>Byla nahlášena neznámá chyba.</b>\n"
+"\n"
+"<b>Nemáte platnou OpenERP smlouvu záruky vydavatel !</b>\n"
+"Pokud používáte OpenERP v produkčním prostředí, je vysoce doporučeno "
+"předplatit si\n"
+"program záruky vydavatele.\n"
+"\n"
+"Smlouva záruky vydavatele OpenERP vám poskytuje garanci oprav a\n"
+"systém automatické aktualizace, takže můžeme vyřešit váš problém během "
+"několika\n"
+"hodin. Pokud máte smlouv záruky vydavatele, tato chyba byla odeslána\n"
+"týmu kvality vydavatele OpenERP.\n"
+"\n"
+"Program záruky vydavatele vám nabízí:\n"
+"* Automatické aktualizace při nových verzích,\n"
+"* Garanci oprav,\n"
+"* Měsíční oznámení potenciálních chyb a jejich oprav,\n"
+"* Bezpečnostní upozornění emailem a automatické aktualizace,\n"
+"* Přístup do zákaznického portálu.\n"
+"\n"
+"Pro více informací můžete použít odkaz níže. Podrobnosti chyby\n"
+"jsou zobrazena v druhé záložce.\n"
+
+#: bin/common/common.py:459
+#, python-format
+msgid ""
+"\n"
+"<b>An unknown error has been reported.</b>\n"
+"\n"
+"Your publisher warranty contract does not cover all modules installed in "
+"your system !\n"
+"If you are using OpenERP in production, it is highly suggested to upgrade "
+"your\n"
+"contract.\n"
+"\n"
+"If you have developed your own modules or installed third party module, we\n"
+"can provide you an additional publisher warranty contract for these modules. "
+"After\n"
+"having reviewed your modules, our quality team will ensure they will "
+"migrate\n"
+"automatically for all future stable versions of OpenERP at no extra cost.\n"
+"\n"
+"Here is the list of modules not covered by your publisher warranty "
+"contract:\n"
+"%s\n"
+"\n"
+"You can use the link bellow for more information. The detail of the error\n"
+"is displayed on the second tab."
+msgstr ""
+"\n"
+"<b>Byla nahlášena neznámá chyba.</b>\n"
+"\n"
+"Vaše smlouva záruky vydavatele nepokrývá všechny moduly instalované ve vašem "
+"systému !\n"
+"Pokud používáte OpenERP v produkčním prostředí, je vysoce doporučeno povýšit "
+"vaši\n"
+"smlouvu.\n"
+"\n"
+"Pokud máte vyvinuty vlastní moduly nebo instalován moduly třetích stran, "
+"můžeme\n"
+"poskytnout doplňující smlouvu záruky vydavatele pro tyto moduly. Po\n"
+"prohlédnutí vašich modulů, náš tým kvality se ujistí, že je lze "
+"aktualizovat\n"
+"automaticky pro všechny budoucí stabilní verze OpenERP bez příplatku.\n"
+"\n"
+"Zde je seznam modulů nepokrytých vaší smlouvou záruky vydavatele:\n"
+"%s\n"
+"\n"
+"Pro více informací můžete použít odkaz níže. Podrobnosti o chybě\n"
+"jsou zobrazeny v druhé záložce."
+
+#: bin/common/common.py:536
+msgid ""
+"Your problem has been sent to the quality team !\n"
+"We will recontact you after analysing the problem."
+msgstr ""
+"Chyba byla odeslána podpurným týmům!\n"
+"Po vyřešení budete kontaktování."
+
+#: bin/common/common.py:539
+#, python-format
+msgid ""
+"Your problem could *NOT* be sent to the quality team !\n"
+"Please report this error manually at:\n"
+"\t%s"
+msgstr ""
+"Váš problém *NE*lze odeslat týmu kvality !\n"
+"Prosíme nahlašte tuto chybu ručně na:\n"
+"\t%s"
+
+#: bin/common/common.py:539
+msgid "Error"
+msgstr "Chyba"
+
+#: bin/common/common.py:695
+msgid "Open with..."
+msgstr "Otevřít s..."
+
+#: bin/rpc.py:157 bin/modules/action/wizard.py:149 bin/modules/gui/main.py:187
+msgid "Connection refused !"
+msgstr "Připojení odmítnuto!"
+
+#: bin/rpc.py:158
+msgid "Connection refused!"
+msgstr "Připojení odmítnuto!"
+
+#: bin/rpc.py:188
+msgid ""
+"Unable to reach to OpenERP server !\n"
+"You should check your connection to the network and the OpenERP server."
+msgstr ""
+"Nelze se spojit s OpenRTP serverem !\n"
+"Měli byste zkontrolovat vaše spojení do sítě a k OpenERP serveru."
+
+#: bin/rpc.py:188
+msgid "Connection Error"
+msgstr "Chyba připojení"
+
+#: bin/rpc.py:203 bin/rpc.py:205 bin/modules/action/wizard.py:161
+#: bin/modules/action/wizard.py:167 bin/modules/action/wizard.py:169
+#: bin/modules/gui/main.py:195 bin/modules/gui/main.py:201
+msgid "Application Error"
+msgstr "Chyba aplikace"
+
+#: bin/rpc.py:205 bin/modules/action/wizard.py:169
+msgid "View details"
+msgstr "Zobraz podrobnosti"
+
+#
+# File: bin/translate.py, line: 183
+#: bin/translate.py:185
+#, python-format
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
+msgstr "Nelze nastavit národní nastavení %(lang_enc)s: %(exception)s"
+
+#: bin/widget_search/reference.py:77 bin/widget_search/spinbutton.py:92
+#: bin/widget_search/custom_filter.py:141 bin/widget_search/filter.py:79
+#: bin/widget_search/char.py:72 bin/widget_search/spinint.py:94
+#: bin/widget_search/calendar.py:125 bin/widget_search/calendar.py:250
+#: bin/widget_search/checkbox.py:68 bin/widget_search/selection.py:116
+#: bin/widget/view/form_gtk/button.py:47
+msgid "The content of the widget or ValueError if not valid"
+msgstr "Obsah pomůcky nebo ValueError pokud nejsou platné"
+
+#: bin/widget_search/date_widget.py:65
+#: bin/widget/view/form_gtk/date_widget.py:65
+msgid ""
+"You can use special operation by pressing +, - or =.  Plus/minus "
+"adds/decrease the variable to the current selected date. Equals set part of "
+"selected date. Available variables: 12h = 12 hours, 8d = 8 days, 4w = 4 "
+"weeks, 1m = 1 month, 2y = 2 years. Some examples:\n"
+"* +21d : adds 21 days to selected year\n"
+"* =23w : set date to the 23th week of the year\n"
+"* -4m : decrease 4 months to the current date\n"
+"You can also use \"=\" to set the date to the current date/time and '-' to "
+"clear the field."
+msgstr ""
+"Můžete použít speciální operace stiskem +, - nebo =.  Plus/mínus "
+"přičíst/odečíst proměnnou aktuálního vybraného data. Rovná se nastaví část "
+"vybraného data. Dostupné proměnné: 12h = 12 hodin, 8d = 8 dnů, 4w = 4 týdnů, "
+"1m = 1 měsíc, 2y = 2 roků. Některé příklady:\n"
+"* +21d : přidá 21 dnů k vybranému roku\n"
+"* =23w : nastaví datum na 23. týden v roce\n"
+"* -4m : odečte 4 měsíce od aktuálního data\n"
+"Můžete také použít \"=\" k nastavení data na aktuální datum/čas a '-' pro "
+"smazání pole."
+
+#: bin/widget_search/custom_filter.py:51
+msgid "AND"
+msgstr "A"
+
+#: bin/widget_search/custom_filter.py:52
+msgid "OR"
+msgstr "NEBO"
+
+#: bin/widget_search/char.py:45
+msgid "Error: "
+msgstr "Chyba: "
+
+#: bin/widget_search/form.py:500
+msgid "The content of the form or exception if not valid"
+msgstr "Obsah formuláře nebo výjimka pokud je neplatný"
+
+#: bin/widget_search/calendar.py:49 bin/widget_search/calendar.py:177
+msgid "Start date"
+msgstr "Počáteční datum"
+
+#: bin/widget_search/calendar.py:53 bin/widget_search/calendar.py:73
+#: bin/widget_search/calendar.py:181 bin/widget_search/calendar.py:201
+#: bin/widget/view/form_gtk/calendar.py:57
+#: bin/widget/view/form_gtk/calendar.py:184
+msgid "Open the calendar widget"
+msgstr "Otevřít kalendář"
+
+#: bin/widget_search/calendar.py:69 bin/widget_search/calendar.py:197
+msgid "End date"
+msgstr "Konečné datum"
+
+#: bin/widget_search/calendar.py:128 bin/widget_search/calendar.py:267
+#: bin/widget/view/form_gtk/calendar.py:135
+#: bin/widget/view/form_gtk/calendar.py:249
+msgid "OpenERP - Date selection"
+msgstr "OpenERP - Výběr data"
+
+#: bin/widget_search/calendar.py:273 bin/widget/view/form_gtk/calendar.py:255
+msgid "Hour:"
+msgstr "Hodin:"
+
+#: bin/widget_search/calendar.py:276 bin/widget/view/form_gtk/calendar.py:258
+msgid "Minute:"
+msgstr "Minut:"
+
+#: bin/widget_search/calendar.py:312 bin/widget/view/form_gtk/calendar.py:291
+msgid "Invalid datetime value! Year must be greater than 1899 !"
+msgstr "Neplatná hodnota data a času! Rok musí být větší než 1899 !"
+
+#: bin/widget_search/wid_int.py:56
+msgid "The content of the widget or exception if not valid"
+msgstr "Obsah pomůcky nebo výjimky pokud nejsou platné"
+
+#: bin/widget_search/checkbox.py:35 bin/widget_search/checkbox.py:42
+#: bin/widget_search/checkbox.py:55
+msgid "Yes"
+msgstr "Ano"
+
+#: bin/widget_search/checkbox.py:36 bin/widget_search/checkbox.py:44
+msgid "No"
+msgstr "Ne"
+
+#: bin/widget_search/custom_filter_widgets.py:36
+#: bin/widget_search/custom_filter_widgets.py:63
+#: bin/widget_search/custom_filter_widgets.py:103
+#: bin/widget_search/custom_filter_widgets.py:132
+#: bin/widget_search/custom_filter_widgets.py:154
+#: bin/widget_search/custom_filter_widgets.py:161
+#: bin/widget_search/custom_filter_widgets.py:185
+#: bin/widget_search/custom_filter_widgets.py:217
+#: bin/widget_search/custom_filter_widgets.py:230
+#: bin/widget_search/custom_filter_widgets.py:262
+#: bin/widget_search/custom_filter_widgets.py:277
+msgid "is"
+msgstr "je"
+
+#: bin/widget_search/custom_filter_widgets.py:37
+#: bin/widget_search/custom_filter_widgets.py:64
+#: bin/widget_search/custom_filter_widgets.py:103
+#: bin/widget_search/custom_filter_widgets.py:132
+#: bin/widget_search/custom_filter_widgets.py:155
+#: bin/widget_search/custom_filter_widgets.py:162
+#: bin/widget_search/custom_filter_widgets.py:186
+#: bin/widget_search/custom_filter_widgets.py:217
+#: bin/widget_search/custom_filter_widgets.py:231
+#: bin/widget_search/custom_filter_widgets.py:262
+#: bin/widget_search/custom_filter_widgets.py:278
+msgid "is not"
+msgstr "není"
+
+#: bin/widget_search/custom_filter_widgets.py:38
+#: bin/widget_search/custom_filter_widgets.py:49
+#: bin/widget_search/custom_filter_widgets.py:56
+#: bin/widget_search/custom_filter_widgets.py:65
+#: bin/widget_search/custom_filter_widgets.py:145
+#: bin/widget_search/custom_filter_widgets.py:156
+#: bin/widget_search/custom_filter_widgets.py:163
+#: bin/widget_search/custom_filter_widgets.py:188
+#: bin/widget_search/custom_filter_widgets.py:207
+#: bin/widget_search/custom_filter_widgets.py:215
+#: bin/widget_search/custom_filter_widgets.py:233
+#: bin/widget_search/custom_filter_widgets.py:252
+#: bin/widget_search/custom_filter_widgets.py:260
+msgid "is Empty"
+msgstr "ne prázdné"
+
+#: bin/widget_search/custom_filter_widgets.py:39
+#: bin/widget_search/custom_filter_widgets.py:49
+#: bin/widget_search/custom_filter_widgets.py:56
+#: bin/widget_search/custom_filter_widgets.py:66
+#: bin/widget_search/custom_filter_widgets.py:145
+#: bin/widget_search/custom_filter_widgets.py:157
+#: bin/widget_search/custom_filter_widgets.py:164
+#: bin/widget_search/custom_filter_widgets.py:189
+#: bin/widget_search/custom_filter_widgets.py:207
+#: bin/widget_search/custom_filter_widgets.py:215
+#: bin/widget_search/custom_filter_widgets.py:234
+#: bin/widget_search/custom_filter_widgets.py:252
+#: bin/widget_search/custom_filter_widgets.py:260
+msgid "is not Empty"
+msgstr "není prázdné"
+
+#: bin/widget_search/custom_filter_widgets.py:40
+#: bin/widget_search/custom_filter_widgets.py:67
+#: bin/widget_search/custom_filter_widgets.py:99
+msgid "contains"
+msgstr "obsahuje"
+
+#: bin/widget_search/custom_filter_widgets.py:41
+#: bin/widget_search/custom_filter_widgets.py:68
+#: bin/widget_search/custom_filter_widgets.py:99
+msgid "doesn't contain"
+msgstr "neobsahuje"
+
+#: bin/widget_search/custom_filter_widgets.py:89
+#: bin/widget/view/form_gtk/many2one.py:161
+msgid "Search a resource"
+msgstr "Vyhledat zdroj"
+
+#: bin/widget_search/custom_filter_widgets.py:172
+msgid "Equals"
+msgstr "Rovná se"
+
+#: bin/widget_search/custom_filter_widgets.py:187
+#: bin/widget_search/custom_filter_widgets.py:201
+#: bin/widget_search/custom_filter_widgets.py:232
+#: bin/widget_search/custom_filter_widgets.py:246
+#: bin/widget_search/custom_filter_widgets.py:301
+#: bin/widget_search/custom_filter_widgets.py:315
+#: bin/widget_search/custom_filter_widgets.py:327
+#: bin/widget_search/custom_filter_widgets.py:342
+#: bin/widget_search/custom_filter_widgets.py:355
+#: bin/widget_search/custom_filter_widgets.py:367
+msgid "between"
+msgstr "mezi"
+
+#: bin/widget_search/custom_filter_widgets.py:190
+#: bin/widget_search/custom_filter_widgets.py:204
+#: bin/widget_search/custom_filter_widgets.py:235
+#: bin/widget_search/custom_filter_widgets.py:249
+#: bin/widget_search/custom_filter_widgets.py:302
+#: bin/widget_search/custom_filter_widgets.py:318
+#: bin/widget_search/custom_filter_widgets.py:327
+#: bin/widget_search/custom_filter_widgets.py:343
+#: bin/widget_search/custom_filter_widgets.py:358
+#: bin/widget_search/custom_filter_widgets.py:367
+msgid "exclude range"
+msgstr "mimo rozsah"
+
+#: bin/widget_search/custom_filter_widgets.py:295
+#: bin/widget_search/custom_filter_widgets.py:336
+msgid "is equal to"
+msgstr "rovná se"
+
+#: bin/widget_search/custom_filter_widgets.py:296
+#: bin/widget_search/custom_filter_widgets.py:337
+msgid "is not equal to"
+msgstr "nerovná se"
+
+#: bin/widget_search/custom_filter_widgets.py:297
+#: bin/widget_search/custom_filter_widgets.py:338
+msgid "greater than"
+msgstr "větší než"
+
+#: bin/widget_search/custom_filter_widgets.py:298
+#: bin/widget_search/custom_filter_widgets.py:339
+msgid "less than"
+msgstr "menší než"
+
+#: bin/widget_search/custom_filter_widgets.py:299
+#: bin/widget_search/custom_filter_widgets.py:340
+msgid "greater than equal to"
+msgstr "větší než rovno"
+
+#: bin/widget_search/custom_filter_widgets.py:300
+#: bin/widget_search/custom_filter_widgets.py:341
+msgid "less than equal to"
+msgstr "méně než rovno"
+
+#: bin/plugins/__init__.py:27
+msgid "Print Workflow"
+msgstr "Tisknout pracovní postup"
+
+#: bin/plugins/__init__.py:28
+msgid "Print Workflow (with subflows)"
+msgstr "Tisknout pracovní postup (včetně podpostupů)"
+
+#: bin/plugins/__init__.py:40
+msgid "No available plugin for this resource !"
+msgstr "Plugin není dostupný pro tento zdroj !"
+
+#: bin/plugins/__init__.py:42
+msgid "Choose a Plugin"
+msgstr "Vyberte plugin"
+
+#: bin/options.py:122
+#, python-format
+msgid "OpenERP Client %s"
+msgstr "OpenERP klient %s"
+
+#: bin/options.py:123
+msgid "specify alternate config file"
+msgstr "určete náhradní konfigurační soubor"
+
+#: bin/options.py:124
+msgid "Enable basic debugging. Alias for '--log-level=debug'"
+msgstr "Povolení základního ladění. Zástupce za '--log-level=debug'"
+
+#: bin/options.py:125
+#, python-format
+msgid "specify the log level: %s"
+msgstr "určete úroveň záznamu: %s"
+
+#: bin/options.py:126
+msgid "specify the user login"
+msgstr "zadejte přihlašovací jméno"
+
+#: bin/options.py:127
+msgid "specify the server port"
+msgstr "zadejte port serveru"
+
+#: bin/options.py:128
+msgid "specify the server ip/name"
+msgstr "zadejte jméno/ip serveru"
+
+#: bin/widget/screen/screen.py:343
+msgid ""
+"(Any existing filter with the \n"
+"same name will be replaced)"
+msgstr ""
+"(Jakýkoliv existující filtr s \n"
+"stejné jméno bude nahrazeno)"
+
+#: bin/widget/view/graph_gtk/parser.py:64
+msgid "Can not generate graph !"
+msgstr "Nelze vytvořit graf!"
+
+#: bin/widget/view/graph_gtk/graph.py:112
+#: bin/widget/view/graph_gtk/graph.py:119
+#: bin/widget/view/graph_gtk/graph.py:125
+#: bin/widget/view/graph_gtk/graph.py:131 bin/widget/view/list.py:183
+msgid "Undefined"
+msgstr "Neurčeno"
+
+#: bin/widget/view/widget_parse.py:52
+#, python-format
+msgid "This type (%s) is not supported by the GTK client !"
+msgstr "Tento typ (%s) není podporován GTK klientem!"
+
+#: bin/widget/view/widget_parse.py:69
+msgid "View Error!"
+msgstr "Chyba pohledu!"
+
+#: bin/widget/view/widget_parse.py:76
+msgid "No valid view found for this object!"
+msgstr "Pro tento objekt nebylo nalezen platný pohled."
+
+#: bin/widget/view/gantt_gtk/parser_dummy.py:30
+msgid "Gantt view not yet implemented !"
+msgstr "Ganttův pohled zatím není implementován !"
+
+#: bin/widget/view/gantt_gtk/parser_dummy.py:31
+msgid ""
+"The gantt view is not available in this GTK Client, you should use the web "
+"interface or switch to the calendar view."
+msgstr ""
+"Ganttův pohled není dostupný v GTK klientovi, měli byste použít webové "
+"rozhraní nebo přepnout do kalendářového pohledu."
+
+#: bin/widget/view/diagram_gtk/xdot.py:1429
+msgid "Dot Viewer"
+msgstr "Prohlížeč Dot"
+
+#: bin/widget/view/diagram_gtk/xdot.py:1719
+msgid "Add New Node"
+msgstr "Přidat nový uzel"
+
+#: bin/widget/view/diagram_gtk/xdot.py:1720
+msgid "Add New Edge"
+msgstr "Přidat nový okraj"
+
+#: bin/widget/view/diagram_gtk/xdot.py:1721
+msgid "Enlarge the Diagram"
+msgstr "Roztáhnout diagram"
+
+#: bin/widget/view/diagram_gtk/xdot.py:1722
+msgid "Shrink the Diagram"
+msgstr "Zmenšit diagram"
+
+#: bin/widget/view/diagram_gtk/xdot.py:1723
+msgid "Fit the diagram to the window"
+msgstr "Zvětšit diagram do okna"
+
+#: bin/widget/view/diagram_gtk/xdot.py:1724
+msgid "Show the diagram at its normal size"
+msgstr "Ukázat diagram v normální velikosti"
+
+#: bin/widget/view/diagram_gtk/xdot.py:1725
+msgid "Print the Diagram"
+msgstr "Tisknout diagram"
+
+#: bin/widget/view/diagram_gtk/xdot.py:1779
+#: bin/modules/gui/window/win_search.py:49
+msgid "OpenERP - Link"
+msgstr "OpenERP - odkaz"
+
+#: bin/widget/view/diagram_gtk/xdot.py:1796
+#, python-format
+msgid "Close Current %s"
+msgstr "Zavřít aktuální %s"
+
+#: bin/widget/view/diagram_gtk/xdot.py:1797
+#, python-format
+msgid "Delete Current %s"
+msgstr "Smazat aktuální %s"
+
+#: bin/widget/view/diagram_gtk/xdot.py:1798
+#, python-format
+msgid "Edit Current %s"
+msgstr "Upravit aktuální %s"
+
+#: bin/widget/view/diagram_gtk/xdot.py:1882
+msgid " - Dot Viewer"
+msgstr " - Prohlížeč Dot"
+
+#: bin/widget/view/list.py:585 bin/widget/view/list.py:586
+#: bin/widget/view/form_gtk/parser.py:135 bin/modules/gui/window/form.py:366
+msgid "Invalid form, correct red fields !"
+msgstr "Chyba ve formuláři, opravte červená pole!!"
+
+#: bin/widget/view/list.py:585
+msgid "Error !"
+msgstr "Chyba !"
+
+#: bin/widget/view/list.py:634 bin/widget/view/form_gtk/many2one.py:388
+msgid "You must select a record to use the relation !"
+msgstr "Musíte vybrat záznam k použití souvislosti !"
+
+#: bin/widget/view/form.py:136
+msgid "You must save this record to use the relate button !"
+msgstr "Musíte uložit tento záznam k použití tlačítka související !"
+
+#: bin/widget/view/form.py:141
+msgid "Action not defined !"
+msgstr "Akce není definována !"
+
+#
+# File: bin/widget/view/form.py, line: 201
+#: bin/widget/view/form.py:200
+msgid "You must save this record to use the action button !"
+msgstr "Musíte uložit tento záznam k použití tlačítka související !"
+
+#
+# File: bin/widget/view/form.py, line: 213
+#: bin/widget/view/form.py:212
+msgid "You must save a record to use the relate button !"
+msgstr "Musíte uložit tento záznam k použití tlačítka související !"
+
+#: bin/widget/view/form.py:237 bin/widget/view/form_gtk/parser.py:667
+#: bin/widget/view/form_gtk/parser.py:788
+#: bin/widget/view/form_gtk/parser.py:845
+msgid "No other language available!"
+msgstr "Další jazyk není k dispozici."
+
+#: bin/widget/view/form.py:244 bin/widget/view/form_gtk/parser.py:679
+#: bin/widget/view/form_gtk/parser.py:794
+#: bin/widget/view/form_gtk/parser.py:851
+msgid "Add Translation"
+msgstr "Přidat překlad"
+
+#: bin/widget/view/form.py:292 bin/widget/view/form_gtk/parser.py:907
+msgid "Translate label"
+msgstr "Přeložit označení"
+
+#: bin/widget/view/calendar_gtk/parser.py:358 bin/openerp.ui.h:880
+msgid "Week"
+msgstr "Týden"
+
+#: bin/widget/view/calendar_gtk/parser_dummy.py:30
+msgid "Calendar View Error !"
+msgstr "Chyba zobrazení kalendáře!"
+
+#: bin/widget/view/calendar_gtk/parser_dummy.py:31
+msgid "You must intall the library python-hippocanvas to use calendars."
+msgstr "K použití kalendáře musíte nainstalovat knihovnu python-hippocanvas."
+
+#: bin/widget/view/tree_gtk/parser.py:61
+msgid ""
+"You have unsaved record(s) !  \n"
+"\n"
+"Please Save them before sorting !"
+msgstr ""
+"Máte neuložené záznam(y) ! \n"
+"Prosím uložte je před řazením !"
+
+#: bin/widget/view/tree_gtk/date_renderer.py:197
+msgid ""
+"Press <i>'+'</i>, <i>'-'</i> or <i>'='</i> for special date operations."
+msgstr ""
+"Stiskněte <i>'+'</i>, <i>'-'</i> nebo <i>'='</i> pro speciální datové "
+"operace."
+
+#: bin/widget/view/tree_gtk/editabletree.py:140
+#, python-format
+msgid "Shortcut: %s"
+msgstr "Zkratka: %s"
+
+#: bin/widget/view/tree_gtk/editabletree.py:140
+msgid "F1 New - F2 Open/Search"
+msgstr "F1 Nový - F2 Otevřít/Hledat"
+
+#: bin/widget/view/tree_gtk/editabletree.py:215
+#, python-format
+msgid "Warning; field %s is required!"
+msgstr "Pozor!; pole %s je nutné zadat!"
+
+#: bin/widget/view/screen_container.py:73
+msgid "--Actions--"
+msgstr "--Akce--"
+
+#: bin/widget/view/screen_container.py:73
+msgid "Save as a Filter"
+msgstr "Uložit jako filtr"
+
+#: bin/widget/view/screen_container.py:73
+msgid "Manage Filters"
+msgstr "Spravovat filtry"
+
+#: bin/widget/view/screen_container.py:88
+msgid "100"
+msgstr "100"
+
+#: bin/widget/view/screen_container.py:88
+msgid "200"
+msgstr "200"
+
+#: bin/widget/view/screen_container.py:88
+msgid "500"
+msgstr "500"
+
+#: bin/widget/view/screen_container.py:88
+msgid "Unlimited"
+msgstr "Neomezeno"
+
+#: bin/widget/view/form_gtk/many2one.py:156 bin/widget/view/form_gtk/url.py:53
+msgid "Open this resource"
+msgstr "Otevřít tento zdroj:"
+
+#: bin/widget/view/form_gtk/many2one.py:172 bin/openerp.ui.h:712
+msgid "Action"
+msgstr "Akce"
+
+#: bin/widget/view/form_gtk/many2one.py:173
+msgid "Report"
+msgstr "Záznam"
+
+#: bin/widget/view/form_gtk/reference.py:69 bin/openerp.ui.h:740
+msgid "Create a new resource"
+msgstr "Vytvoř nový zdroj"
+
+#: bin/widget/view/form_gtk/reference.py:82
+msgid "Search / Open a resource"
+msgstr "Hledat/Otevřít zdroj"
+
+#: bin/widget/view/form_gtk/parser.py:61
+msgid "Wrong icon for the button !"
+msgstr "Chybná ikona pro tlačítko!"
+
+#: bin/widget/view/form_gtk/parser.py:134 bin/modules/gui/window/form.py:365
+#, python-format
+msgid ""
+"Correct following red fields !\n"
+"\n"
+"%s"
+msgstr ""
+"Opravte následující červená pole !\n"
+"\n"
+"%s"
+
+#
+# File: bin/widget/view/form_gtk/parser.py, line: 134
+# File: bin/modules/gui/window/form.py, line: 365
+#: bin/widget/view/form_gtk/parser.py:134 bin/modules/gui/window/form.py:365
+msgid "Input Error !"
+msgstr "Chyba vstupu."
+
+#: bin/widget/view/form_gtk/parser.py:310
+msgid "Field"
+msgstr "Pole"
+
+#: bin/widget/view/form_gtk/parser.py:310
+msgid "Object"
+msgstr "Objekt"
+
+#: bin/widget/view/form_gtk/parser.py:651
+msgid "Enter some text to the related field before adding translations!"
+msgstr "Zadejte nějaký text do pole související před přidáním překladu!"
+
+#: bin/widget/view/form_gtk/parser.py:658
+msgid "You need to save resource before adding translations!"
+msgstr "Potřebujte uložit zdroj před přidáním překladu!"
+
+#: bin/widget/view/form_gtk/parser.py:912
+msgid "Translate view"
+msgstr "Přeložit pohled"
+
+#: bin/widget/view/form_gtk/url.py:50
+msgid "Send an e-mail with your default e-mail client"
+msgstr "Odeslat e-mail s vaším výchozím e-mailovým klientem"
+
+#: bin/widget/view/form_gtk/url.py:118 bin/widget/view/form_gtk/image.py:112
+#: bin/modules/gui/main.py:1383 bin/openerp.ui.h:807
+msgid "Open..."
+msgstr "Otevřít..."
+
+#: bin/widget/view/form_gtk/binary.py:76
+msgid "Select"
+msgstr "Vybrat"
+
+#: bin/widget/view/form_gtk/binary.py:80
+msgid "Open"
+msgstr "Otevřít"
+
+#: bin/widget/view/form_gtk/binary.py:84 bin/widget/view/form_gtk/image.py:82
+msgid "Save As"
+msgstr "Uložit jako"
+
+#: bin/widget/view/form_gtk/binary.py:88 bin/widget/view/form_gtk/image.py:93
+msgid "Clear"
+msgstr "Vymazat"
+
+#: bin/widget/view/form_gtk/binary.py:123
+#: bin/widget/view/form_gtk/binary.py:167
+msgid "Unable to read the file data"
+msgstr "Nelze číst data souboru"
+
+#: bin/widget/view/form_gtk/binary.py:133
+#: bin/widget/view/form_gtk/binary.py:159
+#, python-format
+msgid "Error reading the file: %s"
+msgstr "Chyba čtení souboru: %s"
+
+#: bin/widget/view/form_gtk/binary.py:142
+msgid "All Files"
+msgstr "Všechny soubor"
+
+#: bin/widget/view/form_gtk/binary.py:152
+msgid "Select a file..."
+msgstr "Vyber soubor..."
+
+#: bin/widget/view/form_gtk/binary.py:171
+#: bin/widget/view/form_gtk/image.py:133 bin/modules/gui/main.py:1486
+#: bin/modules/gui/window/win_export.py:352 bin/printer/printer.py:231
+msgid "Save As..."
+msgstr "Uloži jako..."
+
+#: bin/widget/view/form_gtk/binary.py:181
+#, python-format
+msgid "Error writing the file: %s"
+msgstr "Chyba při zápisu do souboru: %s"
+
+#: bin/widget/view/form_gtk/many2many.py:84
+#: bin/widget/view/form_gtk/one2many_list.py:210
+msgid "Previous Page"
+msgstr "Předchozí stránka"
+
+#: bin/widget/view/form_gtk/many2many.py:88
+#: bin/widget/view/form_gtk/one2many_list.py:214
+msgid "Previous Record"
+msgstr "Předchozí záznam"
+
+#: bin/widget/view/form_gtk/many2many.py:96
+#: bin/widget/view/form_gtk/one2many_list.py:222
+msgid "Next Record"
+msgstr "Další záznam"
+
+#: bin/widget/view/form_gtk/many2many.py:100
+#: bin/widget/view/form_gtk/one2many_list.py:226
+msgid "Next Page"
+msgstr "Další stránka"
+
+#: bin/widget/view/form_gtk/many2many.py:106
+#: bin/widget/view/form_gtk/one2many_list.py:238
+msgid "Choose Limit"
+msgstr "Vybrat omezení"
+
+#: bin/widget/view/form_gtk/one2many_list.py:52 bin/modules/gui/main.py:1067
+#: bin/openerp.ui.h:808
+msgid "OpenERP"
+msgstr "OpenERP"
+
+#: bin/widget/view/form_gtk/one2many_list.py:64
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: bin/widget/view/form_gtk/one2many_list.py:70
+msgid "Save & Close"
+msgstr "Uložit & Zavřít"
+
+#: bin/widget/view/form_gtk/one2many_list.py:75
+msgid "Save & New"
+msgstr "Uložit & Nový"
+
+#: bin/widget/view/form_gtk/one2many_list.py:164
+#: bin/widget/view/form_gtk/interface.py:48
+msgid "Set to default value"
+msgstr "Nastavit výchozí hodnotu"
+
+#: bin/widget/view/form_gtk/one2many_list.py:167
+msgid "Set Default"
+msgstr "Nastavit výchozí"
+
+#: bin/widget/view/form_gtk/one2many_list.py:196
+msgid "Create a new entry"
+msgstr "Vytvořit nový záznam"
+
+#: bin/widget/view/form_gtk/one2many_list.py:200
+msgid "Edit this entry"
+msgstr "Upravit záznam"
+
+#: bin/widget/view/form_gtk/one2many_list.py:204
+msgid "Remove this entry"
+msgstr "Odstranit záznam"
+
+#: bin/widget/view/form_gtk/one2many_list.py:232
+msgid "Switch"
+msgstr "Přepnout"
+
+#: bin/widget/view/form_gtk/one2many_list.py:279
+msgid "You have to select a resource !"
+msgstr "Musíte vybrat zdroj !"
+
+#: bin/widget/view/form_gtk/one2many_list.py:388
+#: bin/modules/gui/window/form.py:290
+msgid "Are you sure to remove this record ?"
+msgstr "Opravdu smazat záznam?"
+
+#: bin/widget/view/form_gtk/one2many_list.py:390
+#: bin/modules/gui/window/form.py:292
+msgid "Are you sure to remove those records ?"
+msgstr "Opravdu smazat záznamy?"
+
+#: bin/widget/view/form_gtk/wid_common.py:57
+msgid "Always applicable !"
+msgstr "Použitelné vždy !"
+
+#: bin/widget/view/form_gtk/calendar.py:99
+#: bin/widget/view/form_gtk/calendar.py:163
+msgid "Invalid date value! Year must be greater than 1899 !"
+msgstr "Neplatná hodnota data! Rok musí být větší než 1899 !"
+
+#: bin/widget/view/form_gtk/image.py:73
+msgid "Set Image"
+msgstr "Nastav obrázek"
+
+#: bin/widget/view/form_gtk/image.py:102
+msgid "All files"
+msgstr "Všechny soubory"
+
+#: bin/widget/view/form_gtk/image.py:106
+msgid "Images"
+msgstr "Obrazky"
+
+#: bin/widget/view/form_gtk/image.py:131
+msgid "There is no image to save as !"
+msgstr "Žádný obrázek k uložení jako !"
+
+#: bin/widget/view/form_gtk/image.py:131
+msgid "Warning"
+msgstr "Varování"
+
+#: bin/widget/view/form_gtk/image.py:181
+msgid "Image corrupted"
+msgstr "Poškozený obrázek"
+
+#: bin/widget/view/form_gtk/interface.py:49
+msgid "Set as default"
+msgstr "Nastavit jako výchozí"
+
+#: bin/widget/view/form_gtk/interface.py:64
+msgid "You can not set to the default value here !"
+msgstr "Zde nemůžete nastavit výchozí hodnotu !"
+
+#: bin/widget/view/form_gtk/interface.py:64
+msgid "Operation not permitted!"
+msgstr "Operace není povolena!"
+
+#: bin/modules/action/main.py:48
+msgid "Nothing to print!"
+msgstr "Není co tisknout!"
+
+#: bin/modules/action/main.py:66
+msgid "Printing aborted, too long delay !"
+msgstr "Tisk zrušen, dlouhá čekací prodleva!"
+
+#: bin/modules/action/main.py:204
+msgid "Select your action"
+msgstr "Výběr akce"
+
+#: bin/modules/gui/main.py:89 bin/modules/gui/main.py:341
+msgid "Could not connect to server !"
+msgstr "Nelze připojit na server!"
+
+#: bin/modules/gui/main.py:93 bin/openerp.ui.h:856
+msgid "Server:"
+msgstr "Server:"
+
+#: bin/modules/gui/main.py:104 bin/openerp.ui.h:724
+msgid "Change"
+msgstr "Změnit"
+
+#: bin/modules/gui/main.py:111
+msgid "Super Administrator Password:"
+msgstr "Heslo super-správce:"
+
+#: bin/modules/gui/main.py:193
+msgid "Bad Super Administrator Password"
+msgstr "Špatné heslo super-správce"
+
+#: bin/modules/gui/main.py:217
+msgid "Migration Scripts"
+msgstr "Stěhovací skripty"
+
+#: bin/modules/gui/main.py:220
+msgid "Contract ID:"
+msgstr "ID smlouvy"
+
+#: bin/modules/gui/main.py:226
+msgid "Contract Password:"
+msgstr "Heslo smlouvy"
+
+#: bin/modules/gui/main.py:241
+msgid "You already have the latest version"
+msgstr "Již máte nejnovější verzi"
+
+#: bin/modules/gui/main.py:246
+msgid "The following updates are available:"
+msgstr "Jsou dostupné následující aktualizace:"
+
+#: bin/modules/gui/main.py:258
+msgid "You can now migrate your databases."
+msgstr "Nyní můžete stěhovat vaše databáze."
+
+#: bin/modules/gui/main.py:263
+msgid "Migrate Database"
+msgstr "Stěhovat databázi"
+
+#: bin/modules/gui/main.py:280
+msgid "Database"
+msgstr "Databáze"
+
+#: bin/modules/gui/main.py:292
+msgid "Your database has been upgraded."
+msgstr "Vaše databáze byla povýšena."
+
+#: bin/modules/gui/main.py:294
+msgid "Your databases have been upgraded."
+msgstr "Vaše databáze byly povýšeny."
+
+#: bin/modules/gui/main.py:296
+msgid "You have not selected a database"
+msgstr "Nemáte vybránu žádnou databázi."
+
+#: bin/modules/gui/main.py:360
+msgid "No database found, you must create one !"
+msgstr "Nebyla nalezena žádná databáze, prosím vytvořte novou!"
+
+#: bin/modules/gui/main.py:597
+msgid "Sorry,'"
+msgstr "Promiňte,'"
+
+#: bin/modules/gui/main.py:597 bin/modules/gui/main.py:600
+msgid "Bad database name !"
+msgstr "Chybné jméno databáze!"
+
+#: bin/modules/gui/main.py:600
+msgid ""
+"The database name must contain only normal characters or \"_\".\n"
+"You must avoid all accents, space or special characters."
+msgstr ""
+"Název databáze může obsahovat pouze standardní znaky a  \"_\".\n"
+"Nelze použít háčky, čárky, mezery a speciální znaky."
+
+#: bin/modules/gui/main.py:624 bin/modules/gui/main.py:637
+#: bin/modules/gui/main.py:639 bin/modules/gui/main.py:641
+msgid "Could not create database."
+msgstr "Nelze vytvořit databázi."
+
+#: bin/modules/gui/main.py:625 bin/modules/gui/main.py:637
+msgid "Database already exists !"
+msgstr "Databáze již existuje!"
+
+#: bin/modules/gui/main.py:639 bin/modules/gui/main.py:1378
+#: bin/modules/gui/main.py:1398 bin/modules/gui/main.py:1502
+msgid "Bad database administrator password !"
+msgstr "Chybné heslo správce databáze!"
+
+#: bin/modules/gui/main.py:641 bin/modules/gui/main.py:648
+msgid "Error during database creation !"
+msgstr "Chyba během vytváření databáze!"
+
+#: bin/modules/gui/main.py:648
+msgid ""
+"The server crashed during installation.\n"
+"We suggest you to drop this database."
+msgstr ""
+"Server zkolaboval během instalace.\n"
+"Doporučujeme smazat vytvářenou databázi."
+
+#: bin/modules/gui/main.py:694 bin/modules/gui/main.py:1060
+msgid "Press Ctrl+O to login"
+msgstr "Přihlašte se přes Ctrl + O"
+
+#: bin/modules/gui/main.py:962
+#, python-format
+msgid "%s"
+msgstr "%s"
+
+#: bin/modules/gui/main.py:964
+msgid "No Company"
+msgstr "Žádná firma"
+
+#: bin/modules/gui/main.py:977
+#, python-format
+msgid "%s request(s)"
+msgstr "%s požadavek"
+
+#: bin/modules/gui/main.py:979
+msgid "No request"
+msgstr "Bez požadavku"
+
+#: bin/modules/gui/main.py:981
+#, python-format
+msgid " - %s request(s) sent"
+msgstr " - posláno %s požadavků"
+
+#: bin/modules/gui/main.py:1019
+msgid ""
+"Please double-check the database name or contact your administrator to "
+"verify the database status."
+msgstr ""
+"Prosíme zkontrolujte jméno databáze nebo kontaktujte vašeho správce k "
+"ověření stavu databáze."
+
+#: bin/modules/gui/main.py:1019
+msgid "Database cannot be accessed or does not exist"
+msgstr "Nelze přistupovat k databázi nebo neexistuje"
+
+#: bin/modules/gui/main.py:1023
+msgid ""
+"Connection error !\n"
+"Unable to connect to the server !"
+msgstr ""
+"Chyba připojení!\n"
+"Nelze se připojit k serveru!"
+
+#: bin/modules/gui/main.py:1025
+msgid ""
+"Authentication error !\n"
+"Bad Username or Password !"
+msgstr ""
+"Chyba ověření !\n"
+"Chybné uživatelské jméno nebo heslo !"
+
+#: bin/modules/gui/main.py:1038
+#, python-format
+msgid "OpenERP - %s"
+msgstr "OpenERP - %s"
+
+#: bin/modules/gui/main.py:1058
+msgid "Not logged !"
+msgstr "Nepřihlášen!"
+
+#: bin/modules/gui/main.py:1147
+msgid ""
+"You can not log into the system !\n"
+"Ask the administrator to verify\n"
+"you have an action defined for your user."
+msgstr ""
+"Nelze se připojit do systému!\n"
+"Kontaktujte správce systému\n"
+"pro přidělení oprávnění."
+
+#: bin/modules/gui/main.py:1181 bin/modules/gui/main.py:1188
+msgid "Do you really want to quit ?"
+msgstr "Opravdu skončit?"
+
+#: bin/modules/gui/main.py:1257
+#, python-format
+msgid "Attachments (%d)"
+msgstr "Přílohy (%d)"
+
+#: bin/modules/gui/main.py:1270
+msgid "Attachments"
+msgstr "Přílohy"
+
+#: bin/modules/gui/main.py:1369
+msgid "Delete a database"
+msgstr "Smazat databázi"
+
+#: bin/modules/gui/main.py:1375
+msgid "Database dropped successfully !"
+msgstr "Databáze úspěšně odstraněna!"
+
+#: bin/modules/gui/main.py:1378
+msgid "Could not drop database."
+msgstr "Nelze odstranit databázi."
+
+#: bin/modules/gui/main.py:1380
+msgid "Couldn't drop database"
+msgstr "Nelze zrušit databázi."
+
+#: bin/modules/gui/main.py:1395
+msgid "Database restored successfully !"
+msgstr "Databáze obnovena!"
+
+#: bin/modules/gui/main.py:1398
+msgid "Could not restore database."
+msgstr "Databáze nelze obnovit!"
+
+#: bin/modules/gui/main.py:1400
+msgid "Couldn't restore database"
+msgstr "Databáze nelze obnovit!"
+
+#: bin/modules/gui/main.py:1435
+msgid "<b>Change your password</b>"
+msgstr "<b>Změnit vaše heslo</b>"
+
+#: bin/modules/gui/main.py:1450
+msgid ""
+"Confirmation password does not match new password, operation cancelled!"
+msgstr "Hesla nesouhlasí, operace zrušena!"
+
+#: bin/modules/gui/main.py:1452
+msgid "Validation Error."
+msgstr "Chyba ověření."
+
+#: bin/modules/gui/main.py:1469
+msgid "Could not change the Super Admin password."
+msgstr "Nelze změnit heslo superuživatele."
+
+#: bin/modules/gui/main.py:1470 bin/modules/gui/main.py:1476
+msgid "Bad password provided !"
+msgstr "Vloženo špatné heslo!"
+
+#: bin/modules/gui/main.py:1475
+msgid "Changing password failed, please verify old password."
+msgstr "Selhala změna hesla, prosíme ověřte staré heslo."
+
+#: bin/modules/gui/main.py:1483 bin/modules/gui/main.py:1506
+msgid "Backup a database"
+msgstr "Záloha databáze"
+
+#: bin/modules/gui/main.py:1499
+msgid "Database backed up successfully !"
+msgstr "Databáze úspěšně zazálohována!"
+
+#: bin/modules/gui/main.py:1502
+msgid "Could not backup the database."
+msgstr "Databázi nelze zazálohovat."
+
+#: bin/modules/gui/main.py:1504
+msgid "Couldn't backup database."
+msgstr "Databázi nelze zazálohovat."
+
+#: bin/modules/gui/window/win_import.py:51
+msgid "The file is empty !"
+msgstr "Soubor je prázdný !"
+
+#: bin/modules/gui/window/win_import.py:51
+msgid "Importation !"
+msgstr "Importování !"
+
+#: bin/modules/gui/window/win_import.py:61
+msgid "Imported one object !"
+msgstr "Importován jeden objekt !"
+
+#: bin/modules/gui/window/win_import.py:63
+#, python-format
+msgid "Imported %d objects !"
+msgstr "Imporotováno %d objektů !"
+
+#
+# File: bin/modules/gui/window/win_import.py, line: 70
+#: bin/modules/gui/window/win_import.py:70
+#, python-format
+msgid ""
+"Error trying to import this record:\n"
+"%(err_import_record)s\n"
+"Error Message:\n"
+"%(err_type)s\n"
+"\n"
+"%(err_msg)s"
+msgstr ""
+"Chyba pokusu o import tohoto záznamu:\n"
+"%(err_import_record)s\n"
+"Chybová zpráva:\n"
+"%(err_type)s\n"
+"\n"
+"%(err_msg)s"
+
+#: bin/modules/gui/window/win_import.py:72
+msgid "Importation Error !"
+msgstr "Chyba importování !"
+
+#: bin/modules/gui/window/win_import.py:104
+#: bin/modules/gui/window/win_import.py:108
+msgid "Field name"
+msgstr "Název pole"
+
+#: bin/modules/gui/window/win_import.py:141
+#: bin/modules/gui/window/win_import.py:143
+#: bin/modules/gui/window/win_export.py:207
+msgid "Database ID"
+msgstr "ID databáze"
+
+#: bin/modules/gui/window/win_import.py:182
+msgid "Error opening .CSV file"
+msgstr "Chyba otvírání souboru .CSV"
+
+#: bin/modules/gui/window/win_import.py:182
+msgid "Input Error."
+msgstr "Chyba vstupu."
+
+#: bin/modules/gui/window/win_import.py:198
+#, python-format
+msgid "You cannot import this field %s, because we cannot auto-detect it"
+msgstr ""
+"Nemůžete importovat toto pole %s, protože jej nemůžeme automaticky rozpoznat"
+
+#: bin/modules/gui/window/win_import.py:201
+#, python-format
+msgid ""
+"Error processing your first line of the file.\n"
+"Field %s is unknown !"
+msgstr ""
+"Chyba zpracování vašeho prvního řádku souboru.\n"
+"Neznámé pole %s !"
+
+#: bin/modules/gui/window/win_import.py:201
+msgid "Import Error."
+msgstr "Chyba importu."
+
+#: bin/modules/gui/window/win_import.py:232
+msgid "You have not selected any fields to import"
+msgstr "Nevybrali jste žádné pole k importu"
+
+#: bin/modules/gui/window/win_search.py:126
+#, python-format
+msgid "OpenERP Search: %s"
+msgstr "Vyhledávání OpenERP: %s"
+
+#: bin/modules/gui/window/win_search.py:127
+#, python-format
+msgid "OpenERP Search: %s (%%d result(s))"
+msgstr "Vyhledávání OpenERP: %s (%%d výsledky)"
+
+#: bin/modules/gui/window/__init__.py:31
+msgid "Unknown Window"
+msgstr "Neznámé okno"
+
+#: bin/modules/gui/window/win_selection.py:51
+msgid "Name"
+msgstr "Název"
+
+#: bin/modules/gui/window/win_selection.py:55
+msgid "Ressource Name"
+msgstr "Název zdroje"
+
+#: bin/modules/gui/window/win_selection.py:55
+msgid "Names"
+msgstr "Názvy"
+
+#: bin/modules/gui/window/win_export.py:50
+msgid " record(s) saved !"
+msgstr " záznam uložen!"
+
+#: bin/modules/gui/window/win_export.py:53
+msgid ""
+"Operation failed !\n"
+"I/O error"
+msgstr ""
+"Operace selhala!\n"
+"I/O chyba"
+
+#: bin/modules/gui/window/win_export.py:79
+#: bin/modules/gui/window/win_export.py:105
+msgid "Error Opening Excel !"
+msgstr "Chyba při otevírání Excel!"
+
+#
+# File: bin/modules/gui/window/win_export.py, line: 142
+# File: bin/modules/gui/window/win_export.py, line: 146
+#: bin/modules/gui/window/win_export.py:141
+#: bin/modules/gui/window/win_export.py:145
+msgid "Field Name"
+msgstr "Jméno _pole:"
+
+#: bin/modules/gui/window/win_export.py:206 bin/modules/gui/window/form.py:270
+#: bin/modules/gui/window/view_tree/view_tree_sc.py:41
+msgid "ID"
+msgstr "ID"
+
+#: bin/modules/gui/window/win_export.py:310
+msgid "What is the name of this export ?"
+msgstr "Jaké je jméno tohoto exportu ?"
+
+#: bin/modules/gui/window/win_export.py:344
+msgid "Exportation Error !"
+msgstr "Chyba exportování !"
+
+#: bin/modules/gui/window/win_export.py:349 bin/openerp.ui.h:806
+msgid "Open in Excel"
+msgstr "Otevřít v Excelu"
+
+#: bin/modules/gui/window/tree.py:203 bin/modules/gui/window/tree.py:264
+msgid "No resource selected!"
+msgstr "Nevybrán žádný zdroj!"
+
+#: bin/modules/gui/window/tree.py:222
+msgid ""
+"Are you sure you want\n"
+"to remove this record?"
+msgstr ""
+"Určitě chcete\n"
+"smazat záznam?"
+
+#: bin/modules/gui/window/tree.py:227
+msgid "Error removing resource!"
+msgstr "Chyba odstranění zdroje!"
+
+#: bin/modules/gui/window/tree.py:238
+msgid "Unable to chroot: no tree resource selected"
+msgstr "Nelze chroot: nevybrán stromový zdroj"
+
+#: bin/modules/gui/window/form.py:189
+msgid "Resource ID does not exist for this object!"
+msgstr "Pro tento objekt neexistuje ID zdroje!"
+
+#: bin/modules/gui/window/form.py:247
+msgid "No record selected ! You can only attach to existing record."
+msgstr "Nevybrán zdroj ! Můžete přiložit pouze k existujícímu zdroji."
+
+#: bin/modules/gui/window/form.py:264
+msgid "You have to select a record !"
+msgstr "Musíte vybrat záznam!"
+
+#: bin/modules/gui/window/form.py:271
+msgid "Creation User"
+msgstr "Vytvořil"
+
+#: bin/modules/gui/window/form.py:272
+msgid "Creation Date"
+msgstr "Vytvořeno"
+
+#: bin/modules/gui/window/form.py:273
+msgid "Latest Modification by"
+msgstr "Změnil"
+
+#: bin/modules/gui/window/form.py:274
+msgid "Latest Modification Date"
+msgstr "Naposledy změneno"
+
+#: bin/modules/gui/window/form.py:275
+msgid "Internal Module Data ID"
+msgstr "ID vnitřního datového modulu"
+
+#
+# File: bin/modules/gui/window/form.py, line: 287
+#: bin/modules/gui/window/form.py:287
+msgid ""
+"Record is not saved ! \n"
+" Do you want to clear current record ?"
+msgstr ""
+"Záznam nebyl uložen! \n"
+" Chcete smazat aktuální záznam?"
+
+#: bin/modules/gui/window/form.py:296
+msgid "Resources cleared."
+msgstr "Zdroj vymazán."
+
+#: bin/modules/gui/window/form.py:298
+msgid "Resources successfully removed."
+msgstr "Zdroj úspěšně odstraněn."
+
+#: bin/modules/gui/window/form.py:339
+msgid "Working now on the duplicated document !"
+msgstr "Nyní pracujete na zdvojeném dokumentu !"
+
+#: bin/modules/gui/window/form.py:355
+msgid "Document Saved."
+msgstr "Dokument uložen-"
+
+#: bin/modules/gui/window/form.py:368
+msgid "Warning !"
+msgstr "Varovnání !"
+
+#: bin/modules/gui/window/form.py:389 bin/modules/gui/window/form.py:497
+msgid ""
+"This record has been modified\n"
+"do you want to save it ?"
+msgstr ""
+"Záznam byl změněn, \n"
+"uložit změny?"
+
+#: bin/modules/gui/window/form.py:447
+msgid "You must select one or several records !"
+msgstr "Musíte vybrat jeden, nebo více záznamů!"
+
+#: bin/modules/gui/window/form.py:456
+msgid "Print Screen"
+msgstr "Vytisknout"
+
+#: bin/modules/gui/window/form.py:476
+msgid "No record selected"
+msgstr "Nevybrán žádný záznam"
+
+#: bin/modules/gui/window/form.py:481
+msgid "New document"
+msgstr "Npvý dokument"
+
+#: bin/modules/gui/window/form.py:483
+msgid "Editing document (id: "
+msgstr "Editovat dokument (id: "
+
+#: bin/modules/gui/window/form.py:486
+msgid "Record: "
+msgstr "Záznam: "
+
+#: bin/modules/gui/window/form.py:487
+msgid " of "
+msgstr " z "
+
+#: bin/modules/gui/window/win_preference.py:68
+msgid "Preferences"
+msgstr "Předvolby"
+
+#: bin/modules/gui/window/win_preference.py:86
+msgid ""
+"The default language of the interface has been modified, do not forget to "
+"restart the client to have the interface in your language"
+msgstr ""
+"Byl upraven výchozí jazyk rozhraní. Nezapomeňtě restartovat klienta, aby "
+"bylo rozhraní ve vašem jazyku."
+
+#: bin/modules/gui/window/win_preference.py:88
+msgid "Default language modified !"
+msgstr "Upraven výchozí jazyk !"
+
+#: bin/modules/gui/window/win_extension.py:43
+msgid "Extension"
+msgstr "Rozšíření"
+
+#: bin/modules/gui/window/win_extension.py:43
+msgid "Application"
+msgstr "Aplikace"
+
+#: bin/modules/gui/window/win_extension.py:43
+msgid "Print Processor"
+msgstr "Tiskový procesor"
+
+#: bin/modules/gui/window/win_extension.py:111
+msgid "This extension is already defined"
+msgstr "Přípona již definována."
+
+#: bin/modules/gui/window/win_extension.py:111 bin/openerp.ui.h:758
+msgid "Extension Manager"
+msgstr "Správce rozšíření"
+
+#: bin/modules/gui/window/view_tree/parse.py:35
+msgid "Tree"
+msgstr "Strom"
+
+#: bin/modules/gui/window/view_tree/view_tree_sc.py:45
+msgid "Description"
+msgstr "Popis"
+
+#: bin/openerp-client.py:141
+msgid "Closing OpenERP, KeyboardInterrupt"
+msgstr "Ukončování OpenERP, KeyboardInterrupt"
+
+#: bin/printer/printer.py:184
+#, python-format
+msgid "Unable to handle %s filetype"
+msgstr "Nelze zpracovat typ souboru %s"
+
+#: bin/printer/printer.py:193
+#, python-format
+msgid ""
+"Error occurred while printing:\n"
+"%s"
+msgstr ""
+"Při tisku došlo k chybě:\n"
+"%s"
+
+#: bin/printer/printer.py:195
+msgid "Print Report"
+msgstr "Tisknout výkaz"
+
+#: bin/printer/printer.py:212
+msgid "Error! No Data found. Make sure you have enough data to print!"
+msgstr ""
+"Chyba! Data nenalezena. Ujistěte se, že máte dostatek dat k vytištění!"
+
+#: bin/printer/printer.py:239
+msgid "Error writing the file!"
+msgstr "Chyba při zápisu souboru!"
+
+#: bin/openerp.ui.h:1
+msgid ""
+"\n"
+"(c) 2003-TODAY - Tiny sprl\n"
+"OpenERP is a product of Tiny sprl:\n"
+"\n"
+"Tiny sprl\n"
+"40 Chaussée de Namur\n"
+"1367 Gérompont\n"
+"Belgium\n"
+"\n"
+"Tel : (+32)81.81.37.00\n"
+"Mail: sales@tiny.be\n"
+"Web: http://tiny.be"
+msgstr ""
+"\n"
+"(c) 2003-DNES - Tiny sprl\n"
+"OpenERP je výtvor Tiny sprl:\n"
+"\n"
+"Tiny sprl\n"
+"40 Chaussée de Namur\n"
+"1367 Gérompont\n"
+"Belgium\n"
+"\n"
+"Tel : (+32)81.81.37.00\n"
+"Mail: sales@tiny.be\n"
+"Web: http://tiny.be"
+
+#: bin/openerp.ui.h:14
+#, no-c-format
+msgid ""
+"\n"
+"OpenERP - GTK Client - v%s\n"
+"\n"
+"OpenERP is an Open Source ERP+CRM\n"
+"for small to medium businesses.\n"
+"\n"
+"The whole source code is distributed under\n"
+"the terms of the GNU Public Licence.\n"
+"\n"
+"(c) 2003-TODAY, Tiny sprl\n"
+"\n"
+"More Info on www.openerp.com !"
+msgstr ""
+"\n"
+"OpenERP - GTK klient - v%s\n"
+"\n"
+"OpenERP je Otevřený ERP+CRM software\n"
+"pro malé až středbá podniky.\n"
+"\n"
+"Celý zdrojový kód je šířen pod\n"
+"podmínkami licence GNU Public.\n"
+"\n"
+"(c) 2003-DNES, Tiny sprl\n"
+"\n"
+"Více informací na www.openerp.com !"
+
+#: bin/openerp.ui.h:26
+msgid ""
+"                    GNU GENERAL PUBLIC LICENSE\n"
+"                       Version 3, 29 June 2007\n"
+"\n"
+" Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n"
+" Everyone is permitted to copy and distribute verbatim copies\n"
+" of this license document, but changing it is not allowed.\n"
+"\n"
+"                            Preamble\n"
+"\n"
+"  The GNU General Public License is a free, copyleft license for\n"
+"software and other kinds of works.\n"
+"\n"
+"  The licenses for most software and other practical works are designed\n"
+"to take away your freedom to share and change the works.  By contrast,\n"
+"the GNU General Public License is intended to guarantee your freedom to\n"
+"share and change all versions of a program--to make sure it remains free\n"
+"software for all its users.  We, the Free Software Foundation, use the\n"
+"GNU General Public License for most of our software; it applies also to\n"
+"any other work released this way by its authors.  You can apply it to\n"
+"your programs, too.\n"
+"\n"
+"  When we speak of free software, we are referring to freedom, not\n"
+"price.  Our General Public Licenses are designed to make sure that you\n"
+"have the freedom to distribute copies of free software (and charge for\n"
+"them if you wish), that you receive source code or can get it if you\n"
+"want it, that you can change the software or use pieces of it in new\n"
+"free programs, and that you know you can do these things.\n"
+"\n"
+"  To protect your rights, we need to prevent others from denying you\n"
+"these rights or asking you to surrender the rights.  Therefore, you have\n"
+"certain responsibilities if you distribute copies of the software, or if\n"
+"you modify it: responsibilities to respect the freedom of others.\n"
+"\n"
+"  For example, if you distribute copies of such a program, whether\n"
+"gratis or for a fee, you must pass on to the recipients the same\n"
+"freedoms that you received.  You must make sure that they, too, receive\n"
+"or can get the source code.  And you must show them these terms so they\n"
+"know their rights.\n"
+"\n"
+"  Developers that use the GNU GPL protect your rights with two steps:\n"
+"(1) assert copyright on the software, and (2) offer you this License\n"
+"giving you legal permission to copy, distribute and/or modify it.\n"
+"\n"
+"  For the developers' and authors' protection, the GPL clearly explains\n"
+"that there is no warranty for this free software.  For both users' and\n"
+"authors' sake, the GPL requires that modified versions be marked as\n"
+"changed, so that their problems will not be attributed erroneously to\n"
+"authors of previous versions.\n"
+"\n"
+"  Some devices are designed to deny users access to install or run\n"
+"modified versions of the software inside them, although the manufacturer\n"
+"can do so.  This is fundamentally incompatible with the aim of\n"
+"protecting users' freedom to change the software.  The systematic\n"
+"pattern of such abuse occurs in the area of products for individuals to\n"
+"use, which is precisely where it is most unacceptable.  Therefore, we\n"
+"have designed this version of the GPL to prohibit the practice for those\n"
+"products.  If such problems arise substantially in other domains, we\n"
+"stand ready to extend this provision to those domains in future versions\n"
+"of the GPL, as needed to protect the freedom of users.\n"
+"\n"
+"  Finally, every program is threatened constantly by software patents.\n"
+"States should not allow patents to restrict development and use of\n"
+"software on general-purpose computers, but in those that do, we wish to\n"
+"avoid the special danger that patents applied to a free program could\n"
+"make it effectively proprietary.  To prevent this, the GPL assures that\n"
+"patents cannot be used to render the program non-free.\n"
+"\n"
+"  The precise terms and conditions for copying, distribution and\n"
+"modification follow.\n"
+"\n"
+"                       TERMS AND CONDITIONS\n"
+"\n"
+"  0. Definitions.\n"
+"\n"
+"  \"This License\" refers to version 3 of the GNU General Public License.\n"
+"\n"
+"  \"Copyright\" also means copyright-like laws that apply to other kinds of\n"
+"works, such as semiconductor masks.\n"
+"\n"
+"  \"The Program\" refers to any copyrightable work licensed under this\n"
+"License.  Each licensee is addressed as \"you\".  \"Licensees\" and\n"
+"\"recipients\" may be individuals or organizations.\n"
+"\n"
+"  To \"modify\" a work means to copy from or adapt all or part of the work\n"
+"in a fashion requiring copyright permission, other than the making of an\n"
+"exact copy.  The resulting work is called a \"modified version\" of the\n"
+"earlier work or a work \"based on\" the earlier work.\n"
+"\n"
+"  A \"covered work\" means either the unmodified Program or a work based\n"
+"on the Program.\n"
+"\n"
+"  To \"propagate\" a work means to do anything with it that, without\n"
+"permission, would make you directly or secondarily liable for\n"
+"infringement under applicable copyright law, except executing it on a\n"
+"computer or modifying a private copy.  Propagation includes copying,\n"
+"distribution (with or without modification), making available to the\n"
+"public, and in some countries other activities as well.\n"
+"\n"
+"  To \"convey\" a work means any kind of propagation that enables other\n"
+"parties to make or receive copies.  Mere interaction with a user through\n"
+"a computer network, with no transfer of a copy, is not conveying.\n"
+"\n"
+"  An interactive user interface displays \"Appropriate Legal Notices\"\n"
+"to the extent that it includes a convenient and prominently visible\n"
+"feature that (1) displays an appropriate copyright notice, and (2)\n"
+"tells the user that there is no warranty for the work (except to the\n"
+"extent that warranties are provided), that licensees may convey the\n"
+"work under this License, and how to view a copy of this License.  If\n"
+"the interface presents a list of user commands or options, such as a\n"
+"menu, a prominent item in the list meets this criterion.\n"
+"\n"
+"  1. Source Code.\n"
+"\n"
+"  The \"source code\" for a work means the preferred form of the work\n"
+"for making modifications to it.  \"Object code\" means any non-source\n"
+"form of a work.\n"
+"\n"
+"  A \"Standard Interface\" means an interface that either is an official\n"
+"standard defined by a recognized standards body, or, in the case of\n"
+"interfaces specified for a particular programming language, one that\n"
+"is widely used among developers working in that language.\n"
+"\n"
+"  The \"System Libraries\" of an executable work include anything, other\n"
+"than the work as a whole, that (a) is included in the normal form of\n"
+"packaging a Major Component, but which is not part of that Major\n"
+"Component, and (b) serves only to enable use of the work with that\n"
+"Major Component, or to implement a Standard Interface for which an\n"
+"implementation is available to the public in source code form.  A\n"
+"\"Major Component\", in this context, means a major essential component\n"
+"(kernel, window system, and so on) of the specific operating system\n"
+"(if any) on which the executable work runs, or a compiler used to\n"
+"produce the work, or an object code interpreter used to run it.\n"
+"\n"
+"  The \"Corresponding Source\" for a work in object code form means all\n"
+"the source code needed to generate, install, and (for an executable\n"
+"work) run the object code and to modify the work, including scripts to\n"
+"control those activities.  However, it does not include the work's\n"
+"System Libraries, or general-purpose tools or generally available free\n"
+"programs which are used unmodified in performing those activities but\n"
+"which are not part of the work.  For example, Corresponding Source\n"
+"includes interface definition files associated with source files for\n"
+"the work, and the source code for shared libraries and dynamically\n"
+"linked subprograms that the work is specifically designed to require,\n"
+"such as by intimate data communication or control flow between those\n"
+"subprograms and other parts of the work.\n"
+"\n"
+"  The Corresponding Source need not include anything that users\n"
+"can regenerate automatically from other parts of the Corresponding\n"
+"Source.\n"
+"\n"
+"  The Corresponding Source for a work in source code form is that\n"
+"same work.\n"
+"\n"
+"  2. Basic Permissions.\n"
+"\n"
+"  All rights granted under this License are granted for the term of\n"
+"copyright on the Program, and are irrevocable provided the stated\n"
+"conditions are met.  This License explicitly affirms your unlimited\n"
+"permission to run the unmodified Program.  The output from running a\n"
+"covered work is covered by this License only if the output, given its\n"
+"content, constitutes a covered work.  This License acknowledges your\n"
+"rights of fair use or other equivalent, as provided by copyright law.\n"
+"\n"
+"  You may make, run and propagate covered works that you do not\n"
+"convey, without conditions so long as your license otherwise remains\n"
+"in force.  You may convey covered works to others for the sole purpose\n"
+"of having them make modifications exclusively for you, or provide you\n"
+"with facilities for running those works, provided that you comply with\n"
+"the terms of this License in conveying all material for which you do\n"
+"not control copyright.  Those thus making or running the covered works\n"
+"for you must do so exclusively on your behalf, under your direction\n"
+"and control, on terms that prohibit them from making any copies of\n"
+"your copyrighted material outside their relationship with you.\n"
+"\n"
+"  Conveying under any other circumstances is permitted solely under\n"
+"the conditions stated below.  Sublicensing is not allowed; section 10\n"
+"makes it unnecessary.\n"
+"\n"
+"  3. Protecting Users' Legal Rights From Anti-Circumvention Law.\n"
+"\n"
+"  No covered work shall be deemed part of an effective technological\n"
+"measure under any applicable law fulfilling obligations under article\n"
+"11 of the WIPO copyright treaty adopted on 20 December 1996, or\n"
+"similar laws prohibiting or restricting circumvention of such\n"
+"measures.\n"
+"\n"
+"  When you convey a covered work, you waive any legal power to forbid\n"
+"circumvention of technological measures to the extent such circumvention\n"
+"is effected by exercising rights under this License with respect to\n"
+"the covered work, and you disclaim any intention to limit operation or\n"
+"modification of the work as a means of enforcing, against the work's\n"
+"users, your or third parties' legal rights to forbid circumvention of\n"
+"technological measures.\n"
+"\n"
+"  4. Conveying Verbatim Copies.\n"
+"\n"
+"  You may convey verbatim copies of the Program's source code as you\n"
+"receive it, in any medium, provided that you conspicuously and\n"
+"appropriately publish on each copy an appropriate copyright notice;\n"
+"keep intact all notices stating that this License and any\n"
+"non-permissive terms added in accord with section 7 apply to the code;\n"
+"keep intact all notices of the absence of any warranty; and give all\n"
+"recipients a copy of this License along with the Program.\n"
+"\n"
+"  You may charge any price or no price for each copy that you convey,\n"
+"and you may offer support or warranty protection for a fee.\n"
+"\n"
+"  5. Conveying Modified Source Versions.\n"
+"\n"
+"  You may convey a work based on the Program, or the modifications to\n"
+"produce it from the Program, in the form of source code under the\n"
+"terms of section 4, provided that you also meet all of these conditions:\n"
+"\n"
+"    a) The work must carry prominent notices stating that you modified\n"
+"    it, and giving a relevant date.\n"
+"\n"
+"    b) The work must carry prominent notices stating that it is\n"
+"    released under this License and any conditions added under section\n"
+"    7.  This requirement modifies the requirement in section 4 to\n"
+"    \"keep intact all notices\".\n"
+"\n"
+"    c) You must license the entire work, as a whole, under this\n"
+"    License to anyone who comes into possession of a copy.  This\n"
+"    License will therefore apply, along with any applicable section 7\n"
+"    additional terms, to the whole of the work, and all its parts,\n"
+"    regardless of how they are packaged.  This License gives no\n"
+"    permission to license the work in any other way, but it does not\n"
+"    invalidate such permission if you have separately received it.\n"
+"\n"
+"    d) If the work has interactive user interfaces, each must display\n"
+"    Appropriate Legal Notices; however, if the Program has interactive\n"
+"    interfaces that do not display Appropriate Legal Notices, your\n"
+"    work need not make them do so.\n"
+"\n"
+"  A compilation of a covered work with other separate and independent\n"
+"works, which are not by their nature extensions of the covered work,\n"
+"and which are not combined with it such as to form a larger program,\n"
+"in or on a volume of a storage or distribution medium, is called an\n"
+"\"aggregate\" if the compilation and its resulting copyright are not\n"
+"used to limit the access or legal rights of the compilation's users\n"
+"beyond what the individual works permit.  Inclusion of a covered work\n"
+"in an aggregate does not cause this License to apply to the other\n"
+"parts of the aggregate.\n"
+"\n"
+"  6. Conveying Non-Source Forms.\n"
+"\n"
+"  You may convey a covered work in object code form under the terms\n"
+"of sections 4 and 5, provided that you also convey the\n"
+"machine-readable Corresponding Source under the terms of this License,\n"
+"in one of these ways:\n"
+"\n"
+"    a) Convey the object code in, or embodied in, a physical product\n"
+"    (including a physical distribution medium), accompanied by the\n"
+"    Corresponding Source fixed on a durable physical medium\n"
+"    customarily used for software interchange.\n"
+"\n"
+"    b) Convey the object code in, or embodied in, a physical product\n"
+"    (including a physical distribution medium), accompanied by a\n"
+"    written offer, valid for at least three years and valid for as\n"
+"    long as you offer spare parts or customer support for that product\n"
+"    model, to give anyone who possesses the object code either (1) a\n"
+"    copy of the Corresponding Source for all the software in the\n"
+"    product that is covered by this License, on a durable physical\n"
+"    medium customarily used for software interchange, for a price no\n"
+"    more than your reasonable cost of physically performing this\n"
+"    conveying of source, or (2) access to copy the\n"
+"    Corresponding Source from a network server at no charge.\n"
+"\n"
+"    c) Convey individual copies of the object code with a copy of the\n"
+"    written offer to provide the Corresponding Source.  This\n"
+"    alternative is allowed only occasionally and noncommercially, and\n"
+"    only if you received the object code with such an offer, in accord\n"
+"    with subsection 6b.\n"
+"\n"
+"    d) Convey the object code by offering access from a designated\n"
+"    place (gratis or for a charge), and offer equivalent access to the\n"
+"    Corresponding Source in the same way through the same place at no\n"
+"    further charge.  You need not require recipients to copy the\n"
+"    Corresponding Source along with the object code.  If the place to\n"
+"    copy the object code is a network server, the Corresponding Source\n"
+"    may be on a different server (operated by you or a third party)\n"
+"    that supports equivalent copying facilities, provided you maintain\n"
+"    clear directions next to the object code saying where to find the\n"
+"    Corresponding Source.  Regardless of what server hosts the\n"
+"    Corresponding Source, you remain obligated to ensure that it is\n"
+"    available for as long as needed to satisfy these requirements.\n"
+"\n"
+"    e) Convey the object code using peer-to-peer transmission, provided\n"
+"    you inform other peers where the object code and Corresponding\n"
+"    Source of the work are being offered to the general public at no\n"
+"    charge under subsection 6d.\n"
+"\n"
+"  A separable portion of the object code, whose source code is excluded\n"
+"from the Corresponding Source as a System Library, need not be\n"
+"included in conveying the object code work.\n"
+"\n"
+"  A \"User Product\" is either (1) a \"consumer product\", which means any\n"
+"tangible personal property which is normally used for personal, family,\n"
+"or household purposes, or (2) anything designed or sold for incorporation\n"
+"into a dwelling.  In determining whether a product is a consumer product,\n"
+"doubtful cases shall be resolved in favor of coverage.  For a particular\n"
+"product received by a particular user, \"normally used\" refers to a\n"
+"typical or common use of that class of product, regardless of the status\n"
+"of the particular user or of the way in which the particular user\n"
+"actually uses, or expects or is expected to use, the product.  A product\n"
+"is a consumer product regardless of whether the product has substantial\n"
+"commercial, industrial or non-consumer uses, unless such uses represent\n"
+"the only significant mode of use of the product.\n"
+"\n"
+"  \"Installation Information\" for a User Product means any methods,\n"
+"procedures, authorization keys, or other information required to install\n"
+"and execute modified versions of a covered work in that User Product from\n"
+"a modified version of its Corresponding Source.  The information must\n"
+"suffice to ensure that the continued functioning of the modified object\n"
+"code is in no case prevented or interfered with solely because\n"
+"modification has been made.\n"
+"\n"
+"  If you convey an object code work under this section in, or with, or\n"
+"specifically for use in, a User Product, and the conveying occurs as\n"
+"part of a transaction in which the right of possession and use of the\n"
+"User Product is transferred to the recipient in perpetuity or for a\n"
+"fixed term (regardless of how the transaction is characterized), the\n"
+"Corresponding Source conveyed under this section must be accompanied\n"
+"by the Installation Information.  But this requirement does not apply\n"
+"if neither you nor any third party retains the ability to install\n"
+"modified object code on the User Product (for example, the work has\n"
+"been installed in ROM).\n"
+"\n"
+"  The requirement to provide Installation Information does not include a\n"
+"requirement to continue to provide support service, warranty, or updates\n"
+"for a work that has been modified or installed by the recipient, or for\n"
+"the User Product in which it has been modified or installed.  Access to a\n"
+"network may be denied when the modification itself materially and\n"
+"adversely affects the operation of the network or violates the rules and\n"
+"protocols for communication across the network.\n"
+"\n"
+"  Corresponding Source conveyed, and Installation Information provided,\n"
+"in accord with this section must be in a format that is publicly\n"
+"documented (and with an implementation available to the public in\n"
+"source code form), and must require no special password or key for\n"
+"unpacking, reading or copying.\n"
+"\n"
+"  7. Additional Terms.\n"
+"\n"
+"  \"Additional permissions\" are terms that supplement the terms of this\n"
+"License by making exceptions from one or more of its conditions.\n"
+"Additional permissions that are applicable to the entire Program shall\n"
+"be treated as though they were included in this License, to the extent\n"
+"that they are valid under applicable law.  If additional permissions\n"
+"apply only to part of the Program, that part may be used separately\n"
+"under those permissions, but the entire Program remains governed by\n"
+"this License without regard to the additional permissions.\n"
+"\n"
+"  When you convey a copy of a covered work, you may at your option\n"
+"remove any additional permissions from that copy, or from any part of\n"
+"it.  (Additional permissions may be written to require their own\n"
+"removal in certain cases when you modify the work.)  You may place\n"
+"additional permissions on material, added by you to a covered work,\n"
+"for which you have or can give appropriate copyright permission.\n"
+"\n"
+"  Notwithstanding any other provision of this License, for material you\n"
+"add to a covered work, you may (if authorized by the copyright holders of\n"
+"that material) supplement the terms of this License with terms:\n"
+"\n"
+"    a) Disclaiming warranty or limiting liability differently from the\n"
+"    terms of sections 15 and 16 of this License; or\n"
+"\n"
+"    b) Requiring preservation of specified reasonable legal notices or\n"
+"    author attributions in that material or in the Appropriate Legal\n"
+"    Notices displayed by works containing it; or\n"
+"\n"
+"    c) Prohibiting misrepresentation of the origin of that material, or\n"
+"    requiring that modified versions of such material be marked in\n"
+"    reasonable ways as different from the original version; or\n"
+"\n"
+"    d) Limiting the use for publicity purposes of names of licensors or\n"
+"    authors of the material; or\n"
+"\n"
+"    e) Declining to grant rights under trademark law for use of some\n"
+"    trade names, trademarks, or service marks; or\n"
+"\n"
+"    f) Requiring indemnification of licensors and authors of that\n"
+"    material by anyone who conveys the material (or modified versions of\n"
+"    it) with contractual assumptions of liability to the recipient, for\n"
+"    any liability that these contractual assumptions directly impose on\n"
+"    those licensors and authors.\n"
+"\n"
+"  All other non-permissive additional terms are considered \"further\n"
+"restrictions\" within the meaning of section 10.  If the Program as you\n"
+"received it, or any part of it, contains a notice stating that it is\n"
+"governed by this License along with a term that is a further\n"
+"restriction, you may remove that term.  If a license document contains\n"
+"a further restriction but permits relicensing or conveying under this\n"
+"License, you may add to a covered work material governed by the terms\n"
+"of that license document, provided that the further restriction does\n"
+"not survive such relicensing or conveying.\n"
+"\n"
+"  If you add terms to a covered work in accord with this section, you\n"
+"must place, in the relevant source files, a statement of the\n"
+"additional terms that apply to those files, or a notice indicating\n"
+"where to find the applicable terms.\n"
+"\n"
+"  Additional terms, permissive or non-permissive, may be stated in the\n"
+"form of a separately written license, or stated as exceptions;\n"
+"the above requirements apply either way.\n"
+"\n"
+"  8. Termination.\n"
+"\n"
+"  You may not propagate or modify a covered work except as expressly\n"
+"provided under this License.  Any attempt otherwise to propagate or\n"
+"modify it is void, and will automatically terminate your rights under\n"
+"this License (including any patent licenses granted under the third\n"
+"paragraph of section 11).\n"
+"\n"
+"  However, if you cease all violation of this License, then your\n"
+"license from a particular copyright holder is reinstated (a)\n"
+"provisionally, unless and until the copyright holder explicitly and\n"
+"finally terminates your license, and (b) permanently, if the copyright\n"
+"holder fails to notify you of the violation by some reasonable means\n"
+"prior to 60 days after the cessation.\n"
+"\n"
+"  Moreover, your license from a particular copyright holder is\n"
+"reinstated permanently if the copyright holder notifies you of the\n"
+"violation by some reasonable means, this is the first time you have\n"
+"received notice of violation of this License (for any work) from that\n"
+"copyright holder, and you cure the violation prior to 30 days after\n"
+"your receipt of the notice.\n"
+"\n"
+"  Termination of your rights under this section does not terminate the\n"
+"licenses of parties who have received copies or rights from you under\n"
+"this License.  If your rights have been terminated and not permanently\n"
+"reinstated, you do not qualify to receive new licenses for the same\n"
+"material under section 10.\n"
+"\n"
+"  9. Acceptance Not Required for Having Copies.\n"
+"\n"
+"  You are not required to accept this License in order to receive or\n"
+"run a copy of the Program.  Ancillary propagation of a covered work\n"
+"occurring solely as a consequence of using peer-to-peer transmission\n"
+"to receive a copy likewise does not require acceptance.  However,\n"
+"nothing other than this License grants you permission to propagate or\n"
+"modify any covered work.  These actions infringe copyright if you do\n"
+"not accept this License.  Therefore, by modifying or propagating a\n"
+"covered work, you indicate your acceptance of this License to do so.\n"
+"\n"
+"  10. Automatic Licensing of Downstream Recipients.\n"
+"\n"
+"  Each time you convey a covered work, the recipient automatically\n"
+"receives a license from the original licensors, to run, modify and\n"
+"propagate that work, subject to this License.  You are not responsible\n"
+"for enforcing compliance by third parties with this License.\n"
+"\n"
+"  An \"entity transaction\" is a transaction transferring control of an\n"
+"organization, or substantially all assets of one, or subdividing an\n"
+"organization, or merging organizations.  If propagation of a covered\n"
+"work results from an entity transaction, each party to that\n"
+"transaction who receives a copy of the work also receives whatever\n"
+"licenses to the work the party's predecessor in interest had or could\n"
+"give under the previous paragraph, plus a right to possession of the\n"
+"Corresponding Source of the work from the predecessor in interest, if\n"
+"the predecessor has it or can get it with reasonable efforts.\n"
+"\n"
+"  You may not impose any further restrictions on the exercise of the\n"
+"rights granted or affirmed under this License.  For example, you may\n"
+"not impose a license fee, royalty, or other charge for exercise of\n"
+"rights granted under this License, and you may not initiate litigation\n"
+"(including a cross-claim or counterclaim in a lawsuit) alleging that\n"
+"any patent claim is infringed by making, using, selling, offering for\n"
+"sale, or importing the Program or any portion of it.\n"
+"\n"
+"  11. Patents.\n"
+"\n"
+"  A \"contributor\" is a copyright holder who authorizes use under this\n"
+"License of the Program or a work on which the Program is based.  The\n"
+"work thus licensed is called the contributor's \"contributor version\".\n"
+"\n"
+"  A contributor's \"essential patent claims\" are all patent claims\n"
+"owned or controlled by the contributor, whether already acquired or\n"
+"hereafter acquired, that would be infringed by some manner, permitted\n"
+"by this License, of making, using, or selling its contributor version,\n"
+"but do not include claims that would be infringed only as a\n"
+"consequence of further modification of the contributor version.  For\n"
+"purposes of this definition, \"control\" includes the right to grant\n"
+"patent sublicenses in a manner consistent with the requirements of\n"
+"this License.\n"
+"\n"
+"  Each contributor grants you a non-exclusive, worldwide, royalty-free\n"
+"patent license under the contributor's essential patent claims, to\n"
+"make, use, sell, offer for sale, import and otherwise run, modify and\n"
+"propagate the contents of its contributor version.\n"
+"\n"
+"  In the following three paragraphs, a \"patent license\" is any express\n"
+"agreement or commitment, however denominated, not to enforce a patent\n"
+"(such as an express permission to practice a patent or covenant not to\n"
+"sue for patent infringement).  To \"grant\" such a patent license to a\n"
+"party means to make such an agreement or commitment not to enforce a\n"
+"patent against the party.\n"
+"\n"
+"  If you convey a covered work, knowingly relying on a patent license,\n"
+"and the Corresponding Source of the work is not available for anyone\n"
+"to copy, free of charge and under the terms of this License, through a\n"
+"publicly available network server or other readily accessible means,\n"
+"then you must either (1) cause the Corresponding Source to be so\n"
+"available, or (2) arrange to deprive yourself of the benefit of the\n"
+"patent license for this particular work, or (3) arrange, in a manner\n"
+"consistent with the requirements of this License, to extend the patent\n"
+"license to downstream recipients.  \"Knowingly relying\" means you have\n"
+"actual knowledge that, but for the patent license, your conveying the\n"
+"covered work in a country, or your recipient's use of the covered work\n"
+"in a country, would infringe one or more identifiable patents in that\n"
+"country that you have reason to believe are valid.\n"
+"\n"
+"  If, pursuant to or in connection with a single transaction or\n"
+"arrangement, you convey, or propagate by procuring conveyance of, a\n"
+"covered work, and grant a patent license to some of the parties\n"
+"receiving the covered work authorizing them to use, propagate, modify\n"
+"or convey a specific copy of the covered work, then the patent license\n"
+"you grant is automatically extended to all recipients of the covered\n"
+"work and works based on it.\n"
+"\n"
+"  A patent license is \"discriminatory\" if it does not include within\n"
+"the scope of its coverage, prohibits the exercise of, or is\n"
+"conditioned on the non-exercise of one or more of the rights that are\n"
+"specifically granted under this License.  You may not convey a covered\n"
+"work if you are a party to an arrangement with a third party that is\n"
+"in the business of distributing software, under which you make payment\n"
+"to the third party based on the extent of your activity of conveying\n"
+"the work, and under which the third party grants, to any of the\n"
+"parties who would receive the covered work from you, a discriminatory\n"
+"patent license (a) in connection with copies of the covered work\n"
+"conveyed by you (or copies made from those copies), or (b) primarily\n"
+"for and in connection with specific products or compilations that\n"
+"contain the covered work, unless you entered into that arrangement,\n"
+"or that patent license was granted, prior to 28 March 2007.\n"
+"\n"
+"  Nothing in this License shall be construed as excluding or limiting\n"
+"any implied license or other defenses to infringement that may\n"
+"otherwise be available to you under applicable patent law.\n"
+"\n"
+"  12. No Surrender of Others' Freedom.\n"
+"\n"
+"  If conditions are imposed on you (whether by court order, agreement or\n"
+"otherwise) that contradict the conditions of this License, they do not\n"
+"excuse you from the conditions of this License.  If you cannot convey a\n"
+"covered work so as to satisfy simultaneously your obligations under this\n"
+"License and any other pertinent obligations, then as a consequence you may\n"
+"not convey it at all.  For example, if you agree to terms that obligate you\n"
+"to collect a royalty for further conveying from those to whom you convey\n"
+"the Program, the only way you could satisfy both those terms and this\n"
+"License would be to refrain entirely from conveying the Program.\n"
+"\n"
+"  13. Use with the GNU Affero General Public License.\n"
+"\n"
+"  Notwithstanding any other provision of this License, you have\n"
+"permission to link or combine any covered work with a work licensed\n"
+"under version 3 of the GNU Affero General Public License into a single\n"
+"combined work, and to convey the resulting work.  The terms of this\n"
+"License will continue to apply to the part which is the covered work,\n"
+"but the special requirements of the GNU Affero General Public License,\n"
+"section 13, concerning interaction through a network will apply to the\n"
+"combination as such.\n"
+"\n"
+"  14. Revised Versions of this License.\n"
+"\n"
+"  The Free Software Foundation may publish revised and/or new versions of\n"
+"the GNU General Public License from time to time.  Such new versions will\n"
+"be similar in spirit to the present version, but may differ in detail to\n"
+"address new problems or concerns.\n"
+"\n"
+"  Each version is given a distinguishing version number.  If the\n"
+"Program specifies that a certain numbered version of the GNU General\n"
+"Public License \"or any later version\" applies to it, you have the\n"
+"option of following the terms and conditions either of that numbered\n"
+"version or of any later version published by the Free Software\n"
+"Foundation.  If the Program does not specify a version number of the\n"
+"GNU General Public License, you may choose any version ever published\n"
+"by the Free Software Foundation.\n"
+"\n"
+"  If the Program specifies that a proxy can decide which future\n"
+"versions of the GNU General Public License can be used, that proxy's\n"
+"public statement of acceptance of a version permanently authorizes you\n"
+"to choose that version for the Program.\n"
+"\n"
+"  Later license versions may give you additional or different\n"
+"permissions.  However, no additional obligations are imposed on any\n"
+"author or copyright holder as a result of your choosing to follow a\n"
+"later version.\n"
+"\n"
+"  15. Disclaimer of Warranty.\n"
+"\n"
+"  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY\n"
+"APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT\n"
+"HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY\n"
+"OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,\n"
+"THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR\n"
+"PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM\n"
+"IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF\n"
+"ALL NECESSARY SERVICING, REPAIR OR CORRECTION.\n"
+"\n"
+"  16. Limitation of Liability.\n"
+"\n"
+"  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING\n"
+"WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS\n"
+"THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY\n"
+"GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE\n"
+"USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF\n"
+"DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD\n"
+"PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),\n"
+"EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF\n"
+"SUCH DAMAGES.\n"
+"\n"
+"  17. Interpretation of Sections 15 and 16.\n"
+"\n"
+"  If the disclaimer of warranty and limitation of liability provided\n"
+"above cannot be given local legal effect according to their terms,\n"
+"reviewing courts shall apply local law that most closely approximates\n"
+"an absolute waiver of all civil liability in connection with the\n"
+"Program, unless a warranty or assumption of liability accompanies a\n"
+"copy of the Program in return for a fee.\n"
+"\n"
+"                     END OF TERMS AND CONDITIONS\n"
+msgstr ""
+"                    Obecná veřejná licence GNU v.3\n"
+"                                (GNU GPL v.3)\n"
+"                        3. verze, 29. červen 2007\n"
+"\n"
+"Copyright © 2007 Free Software Foundation, Inc.\n"
+"\n"
+"Kopírování a distribuce doslovných kopií tohoto licenčního dokumentu jsou "
+"povoleny, ale jeho úpravy jsou zakázány.\n"
+"Obsah\n"
+"\n"
+"    Preambule\n"
+"    USTANOVENÍ a PODMÍNKY\n"
+"        0. Definice\n"
+"        1. Zdrojový kód\n"
+"        2. Základní privilegia\n"
+"        3. Ochrana zákonných práv uživatelů před Zákonem proti obcházení\n"
+"        4. Zveřejňování doslovných kopií\n"
+"        5. Zveřejňování upravených verzí zdroje\n"
+"        6. Zveřejňování nezdrojových verzí\n"
+"        7. Dodatečné podmínky\n"
+"        8. Ukončení\n"
+"        9. Přijetí Licence není povinné pro držení kopií\n"
+"        10. Automatické licencování následných příjemců\n"
+"        11. Patenty\n"
+"        12. Neexistuje výjimka na úkor svobody ostatních\n"
+"        13. Použití s Obecnou veřejnou licencí GNU Affero\n"
+"        14. Revidovaná verze této Licence\n"
+"        15. Zřeknutí se záruky\n"
+"        16. Omezení odpovědnosti\n"
+"        17. Výklad odstavců 15 a 16\n"
+"    Jak uplatnit tato ustanovení na vaše nové programy\n"
+"\n"
+"Preambule\n"
+"\n"
+"Obecná veřejná licence GNU (v angličtině GNU General Public License, dále "
+"jen jako “GNU GPL” nebo “GPL”) je svobodná, “copyleft” (část autorských práv "
+"ponechává a části se zříká) licence pro software a jiná díla.\n"
+"\n"
+"Většina licencí pro software a jiná díla jsou navrženy tak, aby omezovaly "
+"svobodu jeho sdílení a úprav. Naproti tomu, Obecná veřejná licence GNU "
+"zaručuje svobodu sdílení a úprav všech verzí programu – aby byl software "
+"svobodný pro všechny jeho uživatele. My, ze Free Software Foundation, "
+"používáme Obecnou veřejnou licenci GNU pro většinu našich programů, ale "
+"licence se vztahuje i na díla jiných autorů, kteří se je rozhodli zveřejnit "
+"právě tímto způsobem. Můžete ji rovněž použít pro své programy.\n"
+"\n"
+"Pokud mluvíme o svobodném softwaru, myslíme tím svobodu používání, nikoliv "
+"cenu. Naše Obecné veřejné licence jsou navrženy tak, abyste mohli volně "
+"šířit kopie svobodného softwaru (a pokud chcete, nechat si za to i "
+"zaplatit), abyste obdrželi zdrojový kód, nebo ho měli možnost získat, abyste "
+"mohli tento software měnit nebo jeho části použít v nových programech a "
+"abyste věděli, že tyto věci smíte dělat.\n"
+"\n"
+"Abychom mohli chránit vaše práva, musíme zabránit tomu, aby vám kdokoliv "
+"tato práva odepíral, nebo vás žádal, abyste se těchto práv vzdali. Proto i "
+"vy máte určité povinnosti, které musíte dodržet, pokud šíříte nebo "
+"upravujete takový software, a to povinnost respektovat svobodu ostatních.\n"
+"\n"
+"Například, šíříte-li kopie programu, ať již zdarma nebo za poplatek, "
+"příjemci musíte poskytnout stejná práva, jaké jste sami obdrželi. Musíte "
+"zaručit, že příjemci rovněž dostanou, anebo mohou získat zdrojový kód. A aby "
+"i oni znali svá práva, musíte je upozornit na tyto podmínky.\n"
+"\n"
+"Vývojáři, kteří používají GNU GPL, chrání vaše práva ve dvou krocích: (1) "
+"zabezpečením autorských práv k softwaru, a (2) nabídkou této Licence, která "
+"vám dává právoplatné svolení k jeho kopírování, šíření a/nebo jeho úpravě.\n"
+"\n"
+"Kvůli ochraně každého vývojáře a autora, GPL dává jasně najevo, že pro "
+"svobodný software neexistuje žádná záruka. V zájmu obou stran, uživatelů i "
+"autorů, GPL požaduje, aby upravené verze programu byly příslušně označeny, a "
+"to kvůli tomu, aby za původce případných chyb programu nebyli nesprávně "
+"označeni autoři původních verzí.\n"
+"\n"
+"Některá zařízení uživatelům zakazují instalaci nebo spuštění upravených "
+"verzí softwaru, i když výrobce si takovou možnost ponechal. Toto je z "
+"principu neslučitelné s cílem ochrany uživatelské svobody – svobody jakkoli "
+"software měnit. Takové porušování se systematicky vyskytuje tam, kde je "
+"program určen pro jednotlivce, tedy tam, kde je to nejméně přijatelné. "
+"Abychom takovým počinem předešli, vytvořili jsme tuto verzi GPL. Jestliže "
+"problémy tohoto druhu budou nadále vznikat, jsme připraveni je podle potřeby "
+"ošetřit v následujících verzích GPL.\n"
+"\n"
+"Závěrem, každý program je neustále ohrožen softwarovými patenty. Státy by "
+"neměly povolovat patenty pro zamezení vývoje a použití softwaru, který je "
+"určen pro všeobecné použití. Ale u těch, které tak činí, bychom rádi "
+"zamezili nebezpečí, že by distributoři svobodného programu obdrželi "
+"samostatná patentová osvědčení a tím by učinili takový program vázaným. "
+"Abychom tomu zamezili, GPL zaručuje, že patenty nemohou činit program "
+"nesvobodným.\n"
+"\n"
+"Přesná ustanovení a podmínky pro kopírování, šíření a upravování naleznete "
+"níže.\n"
+"\n"
+"USTANOVENÍ a PODMÍNKY\n"
+"0. Definice\n"
+"\n"
+"Označením “tato Licence” se myslí 3. verze Obecné veřejné licence GNU.\n"
+"\n"
+"“Autorskými právy” se myslí i zákony příbuzné autorským právům, vztahující "
+"se na jiné druhy díl, jako např. polovodičové masky.\n"
+"\n"
+"“Programem” se označuje jakékoli dílo, které může být chráněno autorskými "
+"právy a je licencováno touto Licencí. Uživatel licence se označuje jako "
+"“vy”. “Uživatelé licence” a “příjemci licence” mohou být jednotlivci nebo "
+"organizace.\n"
+"\n"
+"“Upravováním” díla se rozumí zkopírování nebo přizpůsobení celého nebo jen "
+"části díla způsobem, který vyžaduje autorská práva. Nemyslí se tím vytvoření "
+"přesné kopie. Výsledné dílo se nazývá “upravenou verzí” původního díla nebo "
+"dílo “založené na” původním díle.\n"
+"\n"
+"“Chráněným dílem” se myslí neupravená verze Programu nebo dílo založené na "
+"Programu.\n"
+"\n"
+"“Šířením” díla se označuje jakákoli činnost, která by vás činila přímo či "
+"nepřímo odpovědnými za porušení Zákona o ochraně autorských práv, kromě "
+"spouštění díla na osobním počítači nebo vytváření vlastní kopie. Šíření "
+"zahrnuje kopírování, distribuci (s nebo bez úpravy), zpřístupnění veřejnosti "
+"a v některých zemích i další aktivity.\n"
+"\n"
+"“Zveřejnit” dílo značí jakýkoliv druh šíření, které dalším stranám umožňuje "
+"výrobu nebo pořízení kopií. Běžné používání díla přes počítačovou síť, bez "
+"přenosu kopie k uživateli, se nepovažuje za zveřejnění díla.\n"
+"\n"
+"Interaktivní uživatelské prostředí zobrazuje “Příslušné právní podmínky” v "
+"takovém rozsahu, že jsou uživateli pohodlně vnímatelné a umístěny na dobře "
+"viditelném místě a (1) oznam zobrazuje Příslušné právní podmínky a (2) "
+"oznamuje uživateli, že na dílo se nevztahuje záruka (kromě případů, kdy se "
+"záruka uděluje), že uživatelé licence mohou dílo na základě této Licence "
+"dále zveřejňovat a oznamuje, kde si mohou tuto Licenci přečíst. Pokud "
+"uživatelské prostředí obsahuje seznam uživatelských příkazů, dobře viditelné "
+"umístění v takovém menu splňuje toto kritérium.\n"
+"\n"
+"1. Zdrojový kód\n"
+"\n"
+"“Zdrojový kód” označuje preferovanou formu díla určenou na jeho úpravy. "
+"“Strojovým kódem” se označuje jakákoli nezdrojová forma díla.\n"
+"\n"
+"“Standardním rozhraním” se myslí rozhraní, které je buď uznáno jako "
+"oficiální standard definován uznávanou standardizující autoritou, nebo, v "
+"případě rozhraní určených pro určitý programovací jazyk, je to rozhraní, "
+"které je uznané širokou vývojářskou veřejností daného jazyka.\n"
+"\n"
+"“Systémové knihovny” spustitelného díla zahrnují vše (kromě díla jako "
+"celku), co (a) je zahrnuto v běžné formě balení hlavního komponentu, ale "
+"není součástí hlavního komponentu a (b) slouží pouze pro usnadnění práce s "
+"hlavní komponentou, nebo k implementaci standardního rozhraní tam, kde je "
+"implementace formou zdrojového kódu veřejnosti povolena. V tomto kontextu se "
+"“hlavní komponentou” myslí hlavní nezbytná součást (jádro, správce oken, "
+"atp.) daného operačního systému (pokud nějaký je), na kterém spustitelné "
+"dílo běží, nebo kompilátor používaný ke spuštění díla, nebo spouštěč "
+"strojového kódu používaný k běhu díla.\n"
+"\n"
+"“Úplný zdroj” díla značí veškerý zdrojový kód potřebný pro generování, "
+"instalaci, spouštění (pro spustitelná díla) strojového kódu a úpravu díla, "
+"včetně skriptů pro kontrolu těchto úkonů. Nezahrnuje systémové knihovny "
+"díla, nebo obecné nástroje nebo obecně přístupné svobodné programy, které "
+"jsou používány (v neupravené podobě) k provedení těchto úkonů a nejsou "
+"součástí díla. Například, Úplný zdroj zahrnuje soubory pro definici rozhraní "
+"přidružené ke zdrojovým souborům díla, zdrojový kód sdílených knihoven a "
+"dynamicky navázané podprogramy, které dílo ke správnému fungování potřebuje "
+"– a to buď formou datové komunikace, nebo formou kontroly přenosu mezi "
+"podprogramy a jinými částmi díla.\n"
+"\n"
+"Úplný zdroj nemusí obsahovat nic, co si mohou uživatelé automaticky "
+"vygenerovat z jiných částí Úplného zdroje.\n"
+"\n"
+"Úplný zdroj pro dílo v podobě zdrojového kódu je dané dílo samo.\n"
+"\n"
+"2. Základní privilegia\n"
+"\n"
+"Všechna práva zaručená touto Licencí trvají po dobu platnosti autorského "
+"práva na Program a jsou neodvolatelné, pokud jsou dodrženy podmínky uvedené "
+"níže. Tato Licence explicitně potvrzuje vaše neomezené právo na spouštění "
+"neupraveného Programu. Výstup ze spuštění chráněného díla tato Licence "
+"upravuje pouze v případě, že výstup, vzhledem ke svému obsahu, představuje "
+"chráněné dílo samo. Tato Licence zároveň uznává vaše právo na “fair use” "
+"(správné používání) nebo jiný ekvivalent daný zákonem o autorském právu.\n"
+"\n"
+"Dokud je vaše licence platná, můžete tvořit, spouštět a šířit chráněná díla "
+"bez jakýchkoli omezení, i když díla sami nezveřejňujete. Pro účely "
+"exkluzivních úprav děl výhradně ve váš prospěch nebo vytvoření prostředků ke "
+"spuštění těchto děl, můžete chráněná díla zveřejnit pouze v případě, že v "
+"souladu s podmínkami této Licence zveřejníte všechny materiály, ke kterým "
+"nevlastníte autorská práva. A ti, kteří tvoří a spouštějí chráněná díla za "
+"vás, musí tak činit výhradně vaším jménem, s vaším usměrňováním a pod vaší "
+"kontrolou, v podmínkách, které jim mimo vztahu s vámi zakazují tvořit "
+"jakékoli kopie vašeho materiálu, ke kterému jste držitelem autorských práv.\n"
+"\n"
+"Za jiných okolností zveřejnění díla podléhá podmínkám uvedeným níže. "
+"Sublicencování není povoleno, odstavec 10 ho činí zbytečným.\n"
+"\n"
+"3. Ochrana zákonných práv uživatelů před Zákonem proti obcházení\n"
+"\n"
+"Žádné chráněné dílo by nemělo být považováno za součást efektivních "
+"technologických prostředků na základě platných právních předpisů podle "
+"článku 11, Smlouvy WIPO o autorských právech, přijaté dne 20. prosince 1996, "
+"nebo obdobných zákonů zakazujících nebo omezujících obcházení takových "
+"prostředků.\n"
+"\n"
+"Pokud zveřejníte chráněné dílo, zříkáte se jakékoliv právní moci zakázat "
+"obcházení technologických prostředků kromě případu, kdy by takové obcházení "
+"bylo provedeno na základě práva vyplývajícího z této Licence. Zároveň se "
+"zříkáte jakéhokoliv záměru omezit provoz nebo úpravu díla kvůli prosazení "
+"zákonných práv (v rozporu s uživateli díla) vašich nebo třetí strany na "
+"zákaz obcházení technologických prostředků.\n"
+"\n"
+"4. Zveřejňování doslovných kopií\n"
+"\n"
+"Doslovné kopie zdrojového kódu Programu můžete zveřejňovat tak, jak jste jej "
+"obdržel, za pomoci libovolného média, ale pouze za předpokladu, že na každé "
+"kopii uvedete zmínku o autorovi a absenci záruky na vhodném a viditelném "
+"místě, že všechny zmínky odkazující na tuto Licenci a na jakoukoli přidanou "
+"podmínku podle odstavce 7 ponecháte beze změn a že zároveň ponecháte "
+"nedotčené všechny zmínky o absenci záruky a všem příjemcům zprostředkujete "
+"kopii této Licence spolu s Programem.\n"
+"\n"
+"Za každou zveřejněnou kopii si můžete účtovat peníze (ale nemusíte) a také "
+"můžete nabízet služby zákaznické podpory nebo záruku za poplatek.\n"
+"\n"
+"5. Zveřejňování upravených verzí zdroje\n"
+"\n"
+"Dílo založené na Programu, nebo úpravy na vytvoření díla založené na "
+"Programu, můžete zveřejňovat ve formě zdrojového kódu dle platných podmínek "
+"odstavce 4, za předpokladu, že zároveň splníte všechny následující "
+"podmínky:\n"
+"\n"
+"    a) Dílo musí obsahovat zřetelnou zmínku o tom, že bylo upraveno, spolu s "
+"datem jeho úpravy.\n"
+"    b) Dílo musí obsahovat zřetelnou zmínku o tom, že bylo vydáno pod touto "
+"Licencí a zmínku o jakýchkoliv přidaných podmínkách v souladu s odstavcem 7. "
+"Tento požadavek upravuje požadavek na “ponechání všech zmínek beze změn” z "
+"odstavce 4.\n"
+"    c) Celé dílo musíte licencovat touto Licencí pro každého, kdo si kopii "
+"opatří, anebo s ní jinak přijde do styku. Licence se, spolu s jakýmikoli "
+"dalšími podmínkami podle odstavce 7, proto vztahuje na dílo jako celek a na "
+"všechny jeho části, bez ohledu na to, jak je dílo a jeho části balené. Tato "
+"Licence nedává povolení k licencování děl jiným způsobem, ale pokud jste "
+"toto povolení získali jinak, tato Licence takové povolení neruší.\n"
+"    d) Pokud dílo obsahuje interaktivní uživatelská rozhraní, každé z nich "
+"musí zobrazovat Příslušné právní podmínky. Pokud ale Program obsahuje "
+"interaktivní uživatelská rozhraní, která nezobrazují Příslušné právní "
+"podmínky, vaše dílo nemusí přinutit Program, aby je zobrazoval.\n"
+"\n"
+"Kompilace chráněného díla s jinými vzájemně nezávislými díly, které ze své "
+"podstaty nejsou rozšířeními chráněného díla a které s ním nejsou kombinovány "
+"tak, aby tvořily jeden větší program na paměťovém médiu, či jiném "
+"distribučním médiu, se nazývá “agregát”, pokud kompilace a její výsledné "
+"autorská práva nejsou používány k omezování přístupu nebo zákonných práv "
+"uživatelů kompilace nad míru, kterou samostatná díla povolují. Zahrnutím "
+"chráněného díla do agregátu tato Licence nenabývá platnosti na jiné části "
+"agregátu.\n"
+"\n"
+"6. Zveřejňování nezdrojových verzí\n"
+"\n"
+"Dílo můžete zveřejňovat prostřednictvím strojového kódu podle odstavců 4 a "
+"5, uvedených výše, pokud zveřejníte i strojem-čitelný Úplný zdroj dle "
+"ustanovení této Licence, jedním z následujících způsobů:\n"
+"\n"
+"    a) Zveřejníte strojový kód ve fyzickém produktu (včetně fyzického "
+"distribučního média), doplněný Úplným zdrojem uloženým na trvalém fyzickém "
+"médiu běžně používaném pro výměnu softwaru.\n"
+"    b) Zveřejníte strojový kód ve fyzickém produktu (včetně fyzického "
+"distribučního média), doplněný písemnou nabídkou platnou nejméně tři roky a "
+"tak dlouho, dokud pro ten daný model produktu nabízíte náhradní díly nebo "
+"zákaznickou podporu, abyste komukoliv, kdo si strojový kód opatří, poskytly "
+"buď (1) kopii Úplného zdroje pro veškerý software obsažený v produktu a "
+"chráněný touto Licencí na trvalém fyzickém médiu běžně používaném pro výměnu "
+"softwaru, za cenu nepřesahující náklady vzniklé na fyzické vyhotovení takové "
+"kopie, nebo (2) poskytli bezplatný přístup k Úplnému zdroji na síťovém "
+"serveru.\n"
+"    c) Zveřejníte jednotlivé kopie strojového kódu s kopií písemné nabídky "
+"zpřístupnit Úplný zdroj. Tato alternativa je povolena jen výjimečně, pro "
+"nekomerční účely a jen v případě, že jste i vy přijali strojový kód s "
+"takovou nabídkou, v souladu s odstavcem 6. b).\n"
+"    d) Zveřejníte strojový kód nabídkou přístupu z určeného místa (zdarma "
+"nebo za poplatek) a nabídnete rovnocenný přístup k Úplnému zdroji stejným "
+"způsobem, ze stejného místa a bez dodatečných poplatků. Od příjemců musíte "
+"vyžadovat, aby Úplný zdroj zkopírovali spolu se strojovým kódem. Pokud je "
+"tím místem na zkopírování strojového kódu síťový server, Úplný zdroj může "
+"být na jiném serveru (provozovaný vámi nebo třetí stranou), který podporuje "
+"ekvivalentní prostředky pro kopírování a za podmínky, že vedle strojového "
+"kódu zajistíte jasné instrukce o tom, jak Úplný zdroj najít. Nezávisle na "
+"tom, jaký server hostuje Úplný zdroj, jste povinen zajistit, že bude "
+"přístupný tak dlouho, dokud bude třeba tyto požadavky naplňovat.\n"
+"    e) Zveřejníte strojový kód pomocí peer-to-peer přenosu, za podmínky, že "
+"jiné počítače (peers) informujete, kde je ten strojový kód a Úplný zdroj "
+"díla zveřejněn zdarma, v souladu s odstavcem 6. d).\n"
+"\n"
+"Oddělitelná část strojového kódu, jehož zdrojový kód nespadá do Úplného "
+"zdroje jako systémová knihovna, nemusí být součástí zveřejnění strojového "
+"kódu díla.\n"
+"\n"
+"“Uživatelský produkt” je buď (1) “zákaznický produkt”, což znamená jakékoliv "
+"soukromé vlastnictví, které je běžně používané pro soukromé, rodinné účely a "
+"účely pro domácnost, nebo (2) cokoliv vytvořené a prodávané pro zabudování "
+"do obytných prostor. Pro určení toho, zda je produkt zákaznickým, sporné "
+"případy mají být rozhodnuty ve prospěch toho, že jimi jsou. Pro daný produkt "
+"přijat daným uživatelem, “běžné používání” znamená typické použití daného "
+"druhu produktu, nezávisle na daném uživateli nebo na konkrétním uživatelově "
+"způsobu použití, jeho očekávání, nebo očekávání, které se na uživatele "
+"kladou. Produkt je zákaznickým produktem nezávisle na tom, zda má produkt "
+"podstatné komerční, průmyslové, nebo ne-zákaznické využití, pokud taková "
+"využití představují jediný signifikantní způsob použití produktu.\n"
+"\n"
+"“Instalační informace” pro uživatelský produkt jsou jakékoliv metody, "
+"procedury, autorizační klíče, nebo jiné informace potřebné k instalaci a "
+"spuštění upravených verzí chráněného díla v daném uživatelském produktu z "
+"upravené verze Úplného zdroje. Informace musí zajistit, že se v žádném "
+"případě nebude bránit nebo zasahovat nepřerušené funkcionalitě upraveného "
+"strojového kódu jen proto, že byly úpravy provedeny.\n"
+"\n"
+"Pokud budete strojový kód zveřejňovat podle tohoto odstavce v, nebo se, nebo "
+"výhradně pro použití v zákaznickém produktu a zveřejnění bude součástí "
+"transakce, v níž se právo na držení a používání uživatelského produktu "
+"převádí na příjemce na neomezenou dobu nebo na dobu určitou (bez ohledu na "
+"to, jak je transakce charakterizována), Úplný zdroj zveřejněn na základě "
+"tohoto odstavce musí být doplněn o instalační informace. Tento požadavek "
+"však neplatí, pokud ani vy, ani žádná třetí strana si neponechává možnost "
+"instalovat upravený strojový kód pro uživatelský produkt (např. dílo bylo "
+"instalováno na ROM).\n"
+"\n"
+"Požadavek poskytnutí instalačních informací nezahrnuje požadavek na "
+"pokračování v poskytování zákaznické podpory, záruky, nebo aktualizací pro "
+"dílo, které bylo upraveno nebo instalováno příjemcům, nebo pro uživatelský "
+"produkt, ve kterém byl upraven nebo instalován. Přístup k síti může být "
+"odmítnut, pokud by měla samotná úprava věcně a nepříznivě ovlivňovat chod "
+"sítě, nebo porušuje pravidla a protokoly pro komunikaci na síti.\n"
+"\n"
+"Zveřejněný Úplný zdroj a uvedené instalační informace musí, v souladu s "
+"tímto odstavcem, být ve formátu, který je veřejně dokumentovaný (a s veřejně "
+"dostupnou implementací ve formě zdrojového kódu) a nemůže vyžadovat žádné "
+"speciální hesla nebo klíče pro rozbalení, čtení a kopírování.\n"
+"\n"
+"7. Dodatečné podmínky\n"
+"\n"
+"“Dodatečná práva” jsou podmínky, které doplňují podmínky této Licence "
+"výjimkami na jednu nebo více podmínek. Dodatečná práva, která se mohou "
+"vztahovat na celý Program, se považují za součást této Licence, ale jen "
+"dokud dodržují platné právní předpisy. Pokud se uplatní dodatečná práva "
+"pouze na část Programu, daná část se má používat zvlášť na základě těchto "
+"práv, ale na celý Program se vztahují podmínky této Licence bez dodatečných "
+"práv.\n"
+"\n"
+"Pokud zveřejníte kopii chráněného díla, můžete z ní podle vlastní libosti "
+"odstranit kterékoli další práva, nebo jejich kteroukoliv část. (Dodatečné "
+"práva mohou být sestaveny tak, aby v některých případech úpravy díla "
+"požadovali samotné jejich odstranění.) Dodatečné práva můžete přidat na "
+"materiál, který byl ke chráněnému dílu přidán vámi, nebo pro které "
+"vlastníte, nebo můžete vydat, příslušná autorská práva.\n"
+"\n"
+"Bez ohledu na jakákoli jiná ustanovení této Licence můžete pro materiál, "
+"který byl přidán ke chráněnému dílu (pokud vlastníte autorská práva k "
+"materiálu), rozšířit podmínky této Licence o podmínky:\n"
+"\n"
+"    a) Popřít záruku či omezit odpovědnost jiným způsobem, než je uvedeno v "
+"odstavci 15 a 16 této Licence, nebo\n"
+"    b) Požadovat uchování specifických odůvodněných zákonných vyhlášek nebo "
+"autorských příspěvků do materiálu, nebo do Příslušných právních podmínek "
+"zobrazovaných díly, které je obsahují, nebo\n"
+"    c) Zakázat zavádění o původu materiálu, nebo požadovat, aby byly "
+"upravené verze tohoto materiálu označeny přiměřeným způsobem, tedy jako "
+"odlišné od originálu, nebo\n"
+"    d) Omezit veřejné užívání jmen poskytovatelů licence nebo autorů "
+"materiálu, nebo\n"
+"    e) Popřít přenos práv podle Zákona o ochranných známkách pro některé "
+"ochranné známky, značky a servisní známky, nebo\n"
+"    f) Požadovat odškodnění poskytovatele licence a autorů materiálu od "
+"kohokoli, kdo zveřejní materiál (nebo jeho upravenou verzi) se smluvními "
+"závazky k příjemci, a za jakýkoli závazek, který smlouva přímo ukládá na "
+"poskytovatele licence a autorů.\n"
+"\n"
+"Jiné zakazující dodatečné podmínky jsou ve smyslu odstavce 10 brané jako "
+"“další omezení”. Pokud Program, nebo jeho část, tak jak jste jej obdrželi, "
+"obsahuje zmínku o tom, že je licencovaný touto Licencí spolu s podmínkou, "
+"která je dalším omezením, můžete tuto podmínku odebrat. Pokud licenční "
+"dokument obsahuje další omezení, ale povoluje znovu-licencování a zveřejnění "
+"pod touto Licencí, můžete ke chráněnému dílu přidat materiál podléhající "
+"podmínkám toho licenčního dokumentu, ale pouze za podmínky, že další omezení "
+"se takovýmto znovu-licencováním nebo zveřejněním zruší.\n"
+"\n"
+"Pokud ke chráněnému dílu přidáte podmínky v souladu s tímto odstavcem, do "
+"příslušných zdrojových souborů musíte umístit prohlášení o dodatečných "
+"podmínkách vztahující se na dané soubory, nebo zmínku o tom, kde tyto platné "
+"podmínky najít.\n"
+"\n"
+"Dodatečné podmínky, povolující nebo zakazující, mohou být podány formou "
+"zvláštní napsané licence, nebo podány jako výjimky (ale nezávisle na "
+"způsobu, platí vše, co je výše uvedeno).\n"
+"\n"
+"8. Ukončení\n"
+"\n"
+"Šířit nebo upravovat chráněné dílo můžete výslovně jen pod touto Licencí. "
+"Jakákoli snaha šířit nebo upravovat dílo jiným způsobem, je porušením těchto "
+"podmínek a znamená automatické ukončení vašich práv plynoucích z této "
+"Licence (včetně jakýchkoliv patentových licencí udělených podle odstavce "
+"11.3)).\n"
+"\n"
+"Pokud napravíte všechny porušení této Licence, pak je vaše licence z daného "
+"autorského práva obnovena (a) dočasně, pokud a dokud držitel autorských práv "
+"výslovně a s konečnou platností neukončí vaši licenci a (b) trvale, pokud se "
+"držiteli autorských práv nepodaří vhodnými prostředky vás o porušení "
+"seznámit do 60 dnů po ukončení.\n"
+"\n"
+"Navíc, vaše licence od daného držitele autorských práv se natrvalo obnovuje "
+"i v případě, že vás držitel autorských práv vhodnými prostředky informuje o "
+"porušení a toto je poprvé, co jste obeznámení o porušení této Licence (pro "
+"jakékoli dílo) od toho držitele autorských práv obdrželi a vy napravíte "
+"porušení do 30 dnů po doručení oznámení.\n"
+"\n"
+"Ukončení vašich práv podle tohoto odstavce neukončuje licenci stran, které "
+"na základě této Licence obdržely kopie nebo práva od vás. Pokud byly vaše "
+"práva ukončeny a nebyly natrvalo obnoveny, nemáte právo přijmout nové "
+"licence pro daný materiál vyplývající z odstavce 10.\n"
+"\n"
+"9. Přijetí Licence není povinné pro držení kopií\n"
+"\n"
+"Pro přijímání nebo spouštění kopie Programu nejste povinen tuto Licenci "
+"přijmout. Pokud je to pouze výsledkem použití přenosu peer-to-peer, ani "
+"pomocné šíření chráněného díla nevyžaduje přijetí. Nic jiného než tato "
+"Licence vám ale nedává možnost kopírovat nebo šířit chráněné dílo. V "
+"případě, že tuto Licenci nepřijmete, tyto činnosti porušují autorská práva. "
+"Úpravou nebo šířením chráněného díla tedy vyjadřujete souhlas s Licencí a "
+"všem jejím ustanovením a podmínkám.\n"
+"\n"
+"10. Automatické licencování následných příjemců\n"
+"\n"
+"Po každé, když zveřejňujete chráněné dílo, získává příjemce od původního "
+"poskytovatele licence licenci pro spouštění, úpravu nebo šíření daného díla "
+"v souladu s ustanoveními této Licence. Nejste odpovědný za dodržování této "
+"Licence třetími stranami.\n"
+"\n"
+"“Přenos entity” je přenos kontroly nad organizací, nebo v podstatě přenos "
+"všech jejích aktiv, nebo rozdělení organizace, nebo spojení organizací. "
+"Pokud šíření chráněného díla vyplývá z přenosu entity, každá strana "
+"transakce, která obdrží kopii díla, také obdrží všechny licence k dílu, "
+"které jeho předchůdce měl, nebo mohl dávat podle předchozího odstavce, plus "
+"obdrží právo na vlastnění Úplného zdroje díla od předchůdce, pokud ho "
+"předchůdce vlastní nebo jej může pořídit opodstatněným úsilím.\n"
+"\n"
+"Nesmíte klást žádné překážky výkonu zaručených práv příjemce vyplývajících z "
+"této Licence. Například, nesmíte požadovat žádné licenční poplatky nebo jiné "
+"poplatky za výkon práv udělených touto Licencí a nesmíte zahájit soudní spor "
+"(včetně příčných- a proti-pohledávek v soudním sporu) vycházeje z toho, že "
+"tvorbou, používáním, prodejem, nabídnutím k prodeji, nebo dovážením Programu "
+"nebo jakékoli jeho části si nečiníte patentového nároku.\n"
+"\n"
+"11. Patenty\n"
+"\n"
+"“Přispěvatel” je držitel autorských práv, který touto Licencí autorizuje "
+"použití Programu nebo díla na Programu založeném. Takto licencované dílo se "
+"nazývá “verze přispěvatele”.\n"
+"\n"
+"Přispěvatelovými “základními patentovými nároky” jsou všechny vlastněné "
+"patentové nároky nebo patentové nároky kontrolované přispěvatelem (již "
+"nabyté nebo později získané), které by tvorbou, používáním nebo prodáváním "
+"verze přispěvatele byly nějakým způsobem (povoleným touto Licencí) "
+"porušovány, ale nezahrnuje nároky, které by byly porušeny jen následkem "
+"dalších úprav verze přispěvatele. Pro potřeby této definice, “kontrolovat” "
+"znamená i právo udělit patentové sublicence způsobem konzistentním s "
+"požadavky této Licence.\n"
+"\n"
+"Každý přispěvatel vám uděluje neexkluzivní, celosvětovou, bezplatnou "
+"patentovou licenci podle přispěvatelových základních patentových nároků k "
+"tvorbě, používání, předávání, poskytnutí k prodeji, dovážení a jinak, "
+"spouštění, úpravě a šíření obsahu verze přispěvatele.\n"
+"\n"
+"V dalších třech odstavcích se “patentovou licencí” myslí jakýkoli výslovný "
+"souhlas nebo závazek nepožadovat patent (výslovné povolení užívání patentu "
+"nebo smlouva o nežalování za porušení patentu). “Udělit” takovou patentovou "
+"licenci nějaké straně znamená, buď takový výslovný souhlas dát, nebo závazek "
+"nevymáhat patent vůči dotyčné straně.\n"
+"\n"
+"Pokud vědomě zveřejníte chráněné dílo, které podléhá patentové licenci a "
+"Úplný zdroj není zadarmo a podle podmínek této Licence není nikomu přístupný "
+"na kopírování přes veřejně přístupný síťový server, nebo jinak jednoduše "
+"zpřístupněný, pak musíte (1) takovým způsobem Úplný zdroj zpřístupnit, nebo "
+"(2) se sami o výhodu patentové licence pro toto konkrétní dílo připravit, "
+"nebo (3) zajistit, způsobem konzistentním s požadavky této Licence, aby se "
+"patentová licence přenášela na následné příjemce. “Vědomě” znamená, že máte "
+"skutečnou znalost o tom, že vaše zveřejnění chráněného díla v zemi nebo, že "
+"použití vašeho chráněného díla příjemcem, by porušilo jedno nebo více "
+"identifikovatelných patentů země, o kterých máte důvod se domnívat, že jsou "
+"platné.\n"
+"\n"
+"Pokud budete zveřejňovat, nebo šířit chráněné dílo prostřednictvím pořízení "
+"jeho zveřejnění na základě jedné transakce nebo dohody a udělíte patentovou "
+"licenci jedné ze stran, které chráněné dílo přijímá a udělujete tak povolení "
+"k používání, šíření, uchování nebo zveřejnění konkrétního exempláře "
+"chráněného díla, pak patentová licence se automaticky rozšiřuje na všechny "
+"příjemce chráněného díla a na díla na něm založené.\n"
+"\n"
+"Patentová licence je “diskriminační”, pokud do oblasti své působnosti "
+"zahrnuje zákazy výkonu, nebo je podmíněna zákazem výkonu jedné nebo více "
+"práv, která jsou touto Licencí uděleny. Chráněné dílo nemůžete zveřejňovat, "
+"pokud jste uzavřeli s třetí stranou, která se zabývá obchodní distribucí "
+"softwaru, dohodu, podle níž platíte třetí straně na základě rozsahu vašeho "
+"úsilí ve zveřejňování díla a podle níž třetí strana uděluje jakékoli straně, "
+"která by přijala chráněné dílo od vás, diskriminační patentovou licenci (a) "
+"v souvislosti s kopiemi chráněného díla zveřejněného vámi (nebo kopiemi "
+"vyrobenými z těchto kopií), nebo (b) především v souvislosti s konkrétním "
+"produktem nebo kompilací, která obsahuje chráněné dílo. To vše, pokud jste "
+"tuto dohodu uzavřely, nebo byla patentová licence udělena před 28. březnem "
+"2007.\n"
+"\n"
+"Nic z této Licence by nemělo být vykládáno jako navádění k porušování nebo "
+"omezování patentů či jiných vlastnických práv, které by se na vás jinak "
+"vztahovali podle platného patentového práva.\n"
+"\n"
+"12. Neexistuje výjimka na úkor svobody ostatních\n"
+"\n"
+"Pokud jsou vám uloženy takové podmínky (ať již rozhodnutím soudu, smlouvou "
+"nebo jinak), které se vylučují s podmínkami této Licence, nejste tím "
+"osvobozeni od podmínek této Licence. Pokud nemůžete šířit chráněné dílo tak, "
+"abyste vyhověl zároveň svým závazkům vyplývajícím z této Licence a jiným "
+"platným závazkům, nesmíte jej v důsledku toho šířit vůbec. Pokud byste "
+"například souhlasili s podmínkami, které by vám neumožňovaly další bezplatné "
+"zveřejňování všem, komu Program zveřejňujete, pak by jediný možný způsob, "
+"jak vyhovět daným podmínkám a zároveň i této Licenci spočíval v ukončení "
+"distribuce Programu.\n"
+"\n"
+"13. Použití s Obecnou veřejnou licencí GNU Affero\n"
+"\n"
+"Bez ohledu na jakákoli jiná ustanovení této Licence, máte povolení k "
+"propojení či kombinování jakéhokoliv chráněného díla s dílem licencovaným "
+"podle 3. verze Obecné veřejné licence GNU Affero do jediného kombinovaného "
+"díla a výsledné dílo zveřejnit. Podmínky této Licence se budou nadále "
+"vztahovat na část, která je chráněným dílem, ale, pokud jde o interakci "
+"prostřednictvím sítě, na kombinované dílo jako takové budou platit zvláštní "
+"požadavky odstavce 13 Obecné veřejné licence GNU Affero.\n"
+"\n"
+"14. Revidovaná verze této Licence\n"
+"\n"
+"Free Software Foundation může čas od času vydávat upravené a/nebo nové verze "
+"Obecné veřejné licence GNU. Nové verze se budou svým duchem podobat současné "
+"verzi, ale v některých detailech se kvůli řešení nových problémů či zájmů "
+"mohou lišit.\n"
+"\n"
+"Každé verzi je přiděleno jednoznačné číslo verze. Pokud Program určí číslo "
+"verze, vztahuje se na něj daná verze Obecné veřejné licence GNU nebo "
+"kterákoli “později vydaná verze”, a můžete se podle uvážení řídit "
+"ustanoveními a podmínkami této konkrétní verze, nebo kterékoli pozdější "
+"verze vydanou Free Software Foundation. Jestliže program nespecifikuje číslo "
+"verze, můžete si vybrat libovolnou verzi, kterou Free Software Foundation "
+"vydala.\n"
+"\n"
+"Pokud Program určí, že proxy-server může rozhodnout, která z budoucích verzí "
+"Obecné veřejné licence GNU může být použita, veřejné oznámení přijetí "
+"některé verze proxy-serverem vás trvale autorizuje vybrat si pro Program tu "
+"danou verzi.\n"
+"\n"
+"Později vydané verze licence vám mohou zaručit dodatečné nebo pozměněné "
+"oprávnění. Avšak v důsledku vašeho výběru řídit se novější verzí se na "
+"žádného autora nebo držitele autorských práv neukládají žádné další "
+"závazky.\n"
+"\n"
+"15. Zřeknutí se záruky\n"
+"\n"
+"NA PROGRAM SE NEVZTAHUJE ŽÁDNÁ ZÁRUKA, V MÍŘE POVOLENÉ ZÁKONEM. POKUD NENÍ "
+"PÍSEMNĚ UVEDENO JINAK, DRŽITELÉ AUTORSKÝCH PRÁV POPŘÍPADĚ JINÉ STRANY "
+"POSKYTUJÍ PROGRAM “TAK JAK JE”, BEZ ZÁRUKY JAKÉHOKOLI DRUHU, AŤ VÝSLOVNÉ "
+"NEBO VYPLÝVAJÍCÍ, VČETNĚ, ALE NIKOLI JEN, ZÁRUK OBCHODOVATELNOSTI A "
+"VHODNOSTI PRO URČITÝ ÚČEL. POKUD JDE O KVALITU A VÝKONNOST PROGRAMU, JE "
+"VEŠKERÉ RIZIKO NA VÁS. POKUD BY SE U PROGRAMU PROJEVILY ZÁVADY, NÁKLADY NA "
+"POTŘEBNOU ÚDRŽBU, OPRAVU ČI NÁPRAVU PADAJÍ NA VÁŠ VRUB.\n"
+"\n"
+"16. Omezení odpovědnosti\n"
+"\n"
+"V ŽÁDNÉM PŘÍPADĚ, S VÝJIMKOU TOHO, KDYŽ TO VYŽADUJE PLATNÝ ZÁKON, ANEBO KDYŽ "
+"TO BYLO PÍSEMNĚ ODSOUHLASENO, VÁM NEBUDE ŽÁDNÝ Z DRŽITELŮ AUTORSKÝCH PRÁV "
+"ANI ŽÁDNÁ JINÁ STRANA, KTERÁ SMÍ UPRAVOVAT NEBO ŠÍŘIT PROGRAM V SOULADU S "
+"PŘEDCHOZÍMI USTANOVENÍMI, ODPOVĚDNA ZA ŠKODY, VČETNĚ VŠECH OBECNÝCH, "
+"SPECIÁLNÍCH, NAHODILÝCH NEBO NÁSLEDNÝCH ŠKOD VYPLÝVAJÍCÍCH Z UŽÍVÁNÍ ANEBO "
+"NESCHOPNOSTI UŽÍVAT PROGRAMU (VČETNĚ, ALE NIKOLI JEN, ZTRÁTY NEBO ZKRESLENÍ "
+"DAT, NEBO TRVALÝCH ŠKOD ZPŮSOBENÝCH VÁM NEBO TŘETÍM STRANÁM, NEBO SELHÁNÍ "
+"FUNKCE PROGRAMU V SOUČINNOSTI S JINÝMI PROGRAMY), A TO I V PŘÍPADĚ, ŽE "
+"TAKOVÝ DRŽITEL AUTORSKÝCH PRÁV NEBO JINÁ STRANA BYLI UPOZORNĚNI NA MOŽNOST "
+"TAKOVÝCH ŠKOD.\n"
+"\n"
+"17. Výklad odstavců 15 a 16\n"
+"\n"
+"Pokud výše uvedené zřeknutí se záruk a omezení odpovědnosti nemohou být s "
+"ohledem na své podmínky místo-právně vykonatelné, příslušný soud by měl "
+"vycházet z místních zákonů, které se nejvíce přibližují zbavení veškeré "
+"občanskoprávní odpovědnosti v souvislosti s Programem, pokud není záruka "
+"nebo převzetí odpovědnosti doprovázena zpoplatněním kopií Programu.\n"
+"\n"
+"KONEC USTANOVENÍ A PODMÍNEK\n"
+
+#: bin/openerp.ui.h:648
+msgid "(<i>admin</i>, by default)"
+msgstr "(<i>admin</i>, jako výchozí)"
+
+#: bin/openerp.ui.h:649
+msgid "(must not contain any special char)"
+msgstr "(nesmí obsahovat žádný speciální symbol)"
+
+#: bin/openerp.ui.h:650
+msgid "<Ctrl> + <Enter>"
+msgstr "<Ctrl> + <Enter>"
+
+#: bin/openerp.ui.h:651
+msgid "<Ctrl> + <Esc>"
+msgstr "<Ctrl> + <Esc>"
+
+#: bin/openerp.ui.h:652
+msgid "<Ctrl> + <PgDn>"
+msgstr "<Ctrl> + <PgDn>"
+
+#: bin/openerp.ui.h:653
+msgid "<Ctrl> + <PgUp>"
+msgstr "<Ctrl> + <PgUp>"
+
+#: bin/openerp.ui.h:654
+msgid "<Ctrl> + C"
+msgstr "<Ctrl> + C"
+
+#: bin/openerp.ui.h:655
+msgid "<Ctrl> + D"
+msgstr "<Ctrl> + D"
+
+#: bin/openerp.ui.h:656
+msgid "<Ctrl> + F"
+msgstr "<Ctrl> + F"
+
+#: bin/openerp.ui.h:657
+msgid "<Ctrl> + L"
+msgstr "<Ctrl> + L"
+
+#: bin/openerp.ui.h:658
+msgid "<Ctrl> + N"
+msgstr "<Ctrl> + N"
+
+#: bin/openerp.ui.h:659
+msgid "<Ctrl> + O"
+msgstr "<Ctrl> + O"
+
+#: bin/openerp.ui.h:660
+msgid "<Ctrl> + S"
+msgstr "<Ctrl> + S"
+
+#: bin/openerp.ui.h:661
+msgid "<Ctrl> + V"
+msgstr "<Ctrl> + V"
+
+#: bin/openerp.ui.h:662
+msgid "<Ctrl> + W"
+msgstr "<Ctrl> + W"
+
+#: bin/openerp.ui.h:663
+msgid "<Ctrl> + X"
+msgstr "<Ctrl> + X"
+
+#: bin/openerp.ui.h:664
+msgid "<Enter>"
+msgstr "<Enter>"
+
+#: bin/openerp.ui.h:665
+msgid "<PgDn>"
+msgstr "<PgDn>"
+
+#: bin/openerp.ui.h:666
+msgid "<PgUp>"
+msgstr "<PgUp>"
+
+#: bin/openerp.ui.h:667
+msgid "<Shift> + <Tab>"
+msgstr "<Shift> + <Tab>"
+
+#: bin/openerp.ui.h:668
+msgid "<Tab>"
+msgstr "<Tab>"
+
+#: bin/openerp.ui.h:669
+msgid ""
+"<b>\n"
+"Write concurrency warning:\n"
+"</b>\n"
+"This document has been modified while you were editing it.\n"
+"  Choose:\n"
+"   - \"Cancel\" to cancel saving.\n"
+"   - \"Compare\" to see the modified version.\n"
+"   - \"Write anyway\" to save your current version.\n"
+msgstr ""
+"<b>\n"
+"Zapsat varování souběhu:\n"
+"</b>\n"
+"Tento dokument byl upraven zatímco jste jej psali.\n"
+"  Vyberte:\n"
+"   - \"Zrušit\" ke zrušení uložení.\n"
+"   - \"Porovnat\" ke zobrazení upravené verze.\n"
+"   - \"Přesto zapsat\" k uložení vaší aktuátní verze.\n"
+
+#: bin/openerp.ui.h:678
+msgid ""
+"<b>About OpenERP</b>\n"
+"<i>The most advanced Open Source ERP &amp; CRM !</i>"
+msgstr ""
+"<b>O OpenERP</b>\n"
+"<i>Nejpokročilejší Open Source ERP &amp; CRM !</i>"
+
+#: bin/openerp.ui.h:680
+msgid "<b>All fields</b>"
+msgstr "<b>Všechna pole</b>"
+
+#: bin/openerp.ui.h:681
+msgid "<b>Backup a database</b>"
+msgstr "<b>Zálohovat databázi</b>"
+
+#: bin/openerp.ui.h:682
+msgid "<b>Change your super admin password</b>"
+msgstr "<b>Změnte heslo super správce</b>"
+
+#: bin/openerp.ui.h:683
+msgid ""
+"<b>Complete this form to submit your bug and/or send a support request.</b>\n"
+"<i>\n"
+"Your request will be sent to the OpenERP team and we will reply shortly.\n"
+"Note that we may not reply if you do not have a support contract with Tiny "
+"or an official partner.</i>"
+msgstr ""
+"<b>Vyplňte tento formulář k vložení chyby a/nebo zaslání požadavku na "
+"podporu.</b>\n"
+"<i>\n"
+"Váš požadavek bude odeslán týmu OpenERP a bude brzy zodpovězen.\n"
+"Berte na vědomí, že my nemusíme odpovědět pokud nemáte smlouvu k technické "
+"podpoře s Tiny nebo oficiálním partnerem.</i>"
+
+#: bin/openerp.ui.h:687
+msgid "<b>Connect to a OpenERP server</b>"
+msgstr "<b>Připojit k serveru OpenERP</b>"
+
+#: bin/openerp.ui.h:688
+msgid "<b>Create a new database</b>"
+msgstr "<b>Vytvořit novou databázi</b>"
+
+#: bin/openerp.ui.h:689
+msgid "<b>Exports List</b>"
+msgstr "<b>Seznam exportů</b>"
+
+#: bin/openerp.ui.h:690
+msgid "<b>Fields to import</b>"
+msgstr "<b>Pole k importu</b>"
+
+#: bin/openerp.ui.h:691
+msgid "<b>Opti_ons</b>"
+msgstr "<b>V_olby</b>"
+
+#: bin/openerp.ui.h:692
+msgid "<b>Predefined Exports</b>"
+msgstr "<b>Předdefinované exporty</b>"
+
+#: bin/openerp.ui.h:693
+msgid "<b>Restore a database</b>"
+msgstr "<b>Obnovit databázi</b>"
+
+#: bin/openerp.ui.h:694
+msgid "<b>Shortcuts for OpenERP</b>"
+msgstr "<b>Zkratky pro OpenERP</b>"
+
+#: bin/openerp.ui.h:695
+msgid "<b>Shortcuts in relation fields</b>"
+msgstr "<b>Zkratky v polích souvislostí</b>"
+
+#: bin/openerp.ui.h:696
+msgid "<b>Shortcuts in text entries</b>"
+msgstr "<b>Zkratky v textových položkách</b>"
+
+#: bin/openerp.ui.h:697
+msgid "<b>Support contract id:</b>"
+msgstr "<b>Id smlouvy podpory:</b>"
+
+#: bin/openerp.ui.h:698
+msgid "<b>User preferences</b>"
+msgstr "<b>Uživatelské předvolby</b>"
+
+#: bin/openerp.ui.h:699
+msgid "<b>Value applicable for:</b>"
+msgstr "<b>Hodnota použitelný pro:</b>"
+
+#: bin/openerp.ui.h:700
+msgid "<b>Value applicable if:</b>"
+msgstr "<b>Hodnota použitelná pokud:</b>"
+
+#: bin/openerp.ui.h:701
+msgid "<b>Your Company:</b>"
+msgstr "<b>Vaše společnost:</b>"
+
+#: bin/openerp.ui.h:702
+msgid "<b>Your email:</b>"
+msgstr "<b>Váš email:</b>"
+
+#: bin/openerp.ui.h:703
+msgid "<b>Your name:</b>"
+msgstr "<b>Vaše jméno:</b>"
+
+#: bin/openerp.ui.h:704
+msgid "<i>When editing a resource in a popup window</i>"
+msgstr "<i>Při úpravě zdroje ve vyskakovacím okně</i>"
+
+#: bin/openerp.ui.h:705
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Administrator "
+"Password:"
+msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Heslo správce:"
+
+#: bin/openerp.ui.h:706
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Confirm Password:"
+msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Potvrzení hesla:"
+
+#: bin/openerp.ui.h:707
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Default Language:"
+msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Výchozí jazyk:"
+
+#: bin/openerp.ui.h:708
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Load Demonstration "
+"Data:"
+msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Načíst ukázková "
+"data:"
+
+#: bin/openerp.ui.h:709
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>New Database Name:"
+msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Jméno nové "
+"databáze:"
+
+#: bin/openerp.ui.h:710
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Server:"
+msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Server:"
+
+#: bin/openerp.ui.h:711
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Super "
+"Administrator Password:"
+msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Heslo Super "
+"správce:"
+
+#: bin/openerp.ui.h:713
+msgid "Add Field Names"
+msgstr "Přidat jména polí"
+
+#: bin/openerp.ui.h:714
+msgid "Add a new line/field"
+msgstr "Přidat nový řádek/pole"
+
+#: bin/openerp.ui.h:715
+msgid "Add an attachment to this resource"
+msgstr "Přidat přílohu k tomuto zdroji"
+
+#: bin/openerp.ui.h:716
+msgid "Administrator Password"
+msgstr "Heslo správce"
+
+#: bin/openerp.ui.h:717
+msgid "Attachment"
+msgstr "Příloha"
+
+#: bin/openerp.ui.h:718
+msgid "Auto-Complete text field"
+msgstr "Automaticky dokončit textové pole"
+
+#: bin/openerp.ui.h:719
+msgid "Auto-Detect"
+msgstr "Automaticky zjistit"
+
+#: bin/openerp.ui.h:720
+msgid "Available Fields"
+msgstr "Dostupná pole"
+
+#: bin/openerp.ui.h:721
+msgid "Bottom"
+msgstr "Dole"
+
+#: bin/openerp.ui.h:722
+msgid "CSV Parameters"
+msgstr "Parametr CSV"
+
+#: bin/openerp.ui.h:723
+msgid "Calendar"
+msgstr "Kalendář"
+
+#: bin/openerp.ui.h:725
+msgid "Change password"
+msgstr "Změna hesla"
+
+#: bin/openerp.ui.h:726
+msgid ""
+"Check this box if you want demonstration data to be installed on your new "
+"database. These data will help you to understand OpenERP, with predefined "
+"products, partners, etc."
+msgstr ""
+"Zaškrtněte toto pole, pokud chcete nechat načíšt ukázková data do vaší nové "
+"databáze. Tyto data vám pomůžou pochopit OpenERP, s přednastavenými výrobky, "
+"partnery, aj."
+
+#: bin/openerp.ui.h:727
+msgid "Choose a database..."
+msgstr "Vyberte databázi..."
+
+#: bin/openerp.ui.h:728
+msgid ""
+"Choose the default language that will be installed for this database. You "
+"will be able to install new languages after installation through the "
+"administration menu."
+msgstr ""
+"Vyberte výchozí jazyk, který bude instalován do této databáze. Po instalaci "
+"budete mít možnost instalovat nové jazyky přes správcovskou nabídku."
+
+#: bin/openerp.ui.h:729
+msgid ""
+"Choose the name of the database that will be created. The name must not "
+"contain any special character. Exemple: 'terp'."
+msgstr ""
+"Vyberte jméno databáze, která bude vytvořena. Jméno nesmí obsahovat "
+"speciální symboly. Příklad: 'terp'."
+
+#: bin/openerp.ui.h:730
+msgid "Close Tab"
+msgstr "Zavřít záložku"
+
+#: bin/openerp.ui.h:731
+msgid "Close this window"
+msgstr "Zavřít toto okno"
+
+#: bin/openerp.ui.h:732
+msgid "Close window without saving"
+msgstr "Zavřít okno bez uložení"
+
+#: bin/openerp.ui.h:733
+msgid "Company:"
+msgstr "Společnost:"
+
+#: bin/openerp.ui.h:734
+msgid "Compare"
+msgstr "Porovnat"
+
+#: bin/openerp.ui.h:735
+msgid "Concurrency exception"
+msgstr "Chyba souběhu"
+
+#: bin/openerp.ui.h:736
+msgid "Connect"
+msgstr "Připojit"
+
+#: bin/openerp.ui.h:737
+msgid "Copy selected text"
+msgstr "Kopírovat vybraný text"
+
+#: bin/openerp.ui.h:738
+msgid "Copy this resource"
+msgstr "Kopírovat tento zdroj"
+
+#: bin/openerp.ui.h:739
+msgid "Create a new database"
+msgstr "Vytvořit novou databázi"
+
+#: bin/openerp.ui.h:741
+msgid "Cut selected text"
+msgstr "Vyříznout vybraný text"
+
+#: bin/openerp.ui.h:742
+msgid "Database:"
+msgstr "Databáze:"
+
+#: bin/openerp.ui.h:743
+msgid "Databases"
+msgstr "Databáze"
+
+#: bin/openerp.ui.h:744
+msgid "Day"
+msgstr "Den"
+
+#: bin/openerp.ui.h:745
+msgid "Default _value:"
+msgstr "Výchozí _hodnota:"
+
+#: bin/openerp.ui.h:746
+msgid "Delete"
+msgstr "Smazat"
+
+#: bin/openerp.ui.h:747
+msgid "Delete this resource"
+msgstr "Smazat tento zdroj"
+
+#: bin/openerp.ui.h:748
+msgid "Diagram"
+msgstr "Diagram"
+
+#: bin/openerp.ui.h:749
+msgid "Dro_p database"
+msgstr "Odstranit databázi"
+
+#: bin/openerp.ui.h:750
+msgid "Edit / Save this resource"
+msgstr "Upravit / Uložit tento zdroj"
+
+#: bin/openerp.ui.h:751
+msgid "Edition Widgets"
+msgstr "Upravitelná pomůcka"
+
+#: bin/openerp.ui.h:752
+msgid "Emergency:"
+msgstr "Pohotovost:"
+
+#: bin/openerp.ui.h:753
+msgid "Enable Debug Mode Tooltips"
+msgstr "Povolit režim ladících nástrojových tipů"
+
+#: bin/openerp.ui.h:754
+msgid "Encoding:"
+msgstr "Kódování:"
+
+#: bin/openerp.ui.h:755
+msgid "Enter Filter Name:"
+msgstr "Zadejte jméno filtru:"
+
+#: bin/openerp.ui.h:756
+msgid "Explain your problem:"
+msgstr "Vysvětlete váš problém:"
+
+#: bin/openerp.ui.h:757
+msgid "Expor_t data..."
+msgstr "Expor_t dat..."
+
+#: bin/openerp.ui.h:759
+msgid "F1"
+msgstr "F1"
+
+#: bin/openerp.ui.h:760
+msgid "F2"
+msgstr "F2"
+
+#
+# File: bin/openerp.glade, line: 6014
+#: bin/openerp.ui.h:761
+msgid "Field Separator: "
+msgstr "Oddělovač polí: "
+
+#: bin/openerp.ui.h:762
+msgid "Field _Name:"
+msgstr "Jméno _pole:"
+
+#: bin/openerp.ui.h:763
+msgid "Fields to Export"
+msgstr "Pole k exportu"
+
+#
+# File: bin/openerp.glade, line: 5821
+#: bin/openerp.ui.h:764
+msgid "File to Import: "
+msgstr "Soubor k importu: "
+
+#: bin/openerp.ui.h:765
+msgid "Filter Entry"
+msgstr "Položka filtru"
+
+#: bin/openerp.ui.h:766
+msgid "Find"
+msgstr "Hledat"
+
+#: bin/openerp.ui.h:767
+msgid "Find / Search"
+msgstr "Najít / Hledat"
+
+#: bin/openerp.ui.h:768
+msgid "For_m"
+msgstr "For_mulář"
+
+#: bin/openerp.ui.h:769
+msgid "Form"
+msgstr "Formulář"
+
+#: bin/openerp.ui.h:770
+msgid "Gantt"
+msgstr "Gantt"
+
+#: bin/openerp.ui.h:771
+msgid "Go to next matched resource"
+msgstr "Jít na následující odpovídající zdroj"
+
+#: bin/openerp.ui.h:772
+msgid "Go to previous matched search"
+msgstr "Jít na předchozí odpovídající vyhledání"
+
+#: bin/openerp.ui.h:773
+msgid "Go to resource ID"
+msgstr "Jít na ID zdroje"
+
+#: bin/openerp.ui.h:774
+msgid "Graph"
+msgstr "Graf"
+
+#: bin/openerp.ui.h:775
+msgid "Hello World!"
+msgstr "Ahoj světe!"
+
+#: bin/openerp.ui.h:776
+msgid "Horizontal"
+msgstr "Vodorovný"
+
+#: bin/openerp.ui.h:777
+msgid "I_mport data..."
+msgstr "I_mport dat..."
+
+#: bin/openerp.ui.h:778
+msgid "Import Compatible"
+msgstr "Importovat kompatibilní"
+
+#: bin/openerp.ui.h:779
+msgid "Import from CSV"
+msgstr "Importovat z CSV"
+
+#: bin/openerp.ui.h:780
+msgid "Keyboard Shortcuts"
+msgstr "Klávesové zkratky"
+
+#: bin/openerp.ui.h:781
+msgid "Keyboard shortcuts"
+msgstr "Klávesové zkratky"
+
+#: bin/openerp.ui.h:782
+msgid "Latin1"
+msgstr "Latin1"
+
+#: bin/openerp.ui.h:783
+msgid "Launch actions about this resource"
+msgstr "Spustit akce k tomuto zdroji"
+
+#: bin/openerp.ui.h:784
+msgid "Left"
+msgstr "Vlevo"
+
+#: bin/openerp.ui.h:785
+msgid "Lines to Skip:"
+msgstr "Řádky k přeskočení:"
+
+#: bin/openerp.ui.h:786
+msgid "List"
+msgstr "Seznam"
+
+#: bin/openerp.ui.h:787
+msgid "Main Shortcuts"
+msgstr "Hlavní zkratky"
+
+#: bin/openerp.ui.h:788
+msgid "Medium"
+msgstr "Střední"
+
+#: bin/openerp.ui.h:789
+msgid "Menu"
+msgstr "Nabídka"
+
+#: bin/openerp.ui.h:790
+msgid "Month"
+msgstr "Měsíc"
+
+#: bin/openerp.ui.h:791
+msgid "N_othing"
+msgstr "Žá_dné"
+
+#: bin/openerp.ui.h:792
+msgid "Ne_xt"
+msgstr "Da_lší"
+
+#: bin/openerp.ui.h:793
+msgid "Ne_xt Tip"
+msgstr "Da_lší tip"
+
+#: bin/openerp.ui.h:794
+msgid "New"
+msgstr "Nový"
+
+#: bin/openerp.ui.h:795
+msgid "New database name:"
+msgstr "Jméno nové databáze:"
+
+#: bin/openerp.ui.h:796
+msgid "New password confirmation:"
+msgstr "Potvrzení nového hesla:"
+
+#: bin/openerp.ui.h:797
+msgid "New password:"
+msgstr "Nové heslo:"
+
+#: bin/openerp.ui.h:798
+msgid "Next"
+msgstr "Další"
+
+#: bin/openerp.ui.h:799
+msgid "Next Tab"
+msgstr "Další záložka"
+
+#: bin/openerp.ui.h:800
+msgid "Next editable widget"
+msgstr "Další upravitelná pomůcka"
+
+#: bin/openerp.ui.h:801
+msgid "Next record"
+msgstr "Další záznam"
+
+#: bin/openerp.ui.h:802
+msgid "Not Urgent"
+msgstr "Není naléhavé"
+
+#: bin/openerp.ui.h:803
+msgid "Old password:"
+msgstr "Staré heslo:"
+
+#: bin/openerp.ui.h:804
+msgid "Open ERP - Forms widget"
+msgstr "Open ERP - pomůcky formulářů"
+
+#: bin/openerp.ui.h:805
+msgid "Open current field"
+msgstr "Otevřít aktuální pole"
+
+#: bin/openerp.ui.h:809
+msgid "OpenERP - About"
+msgstr "OpenERP - O aplikaci"
+
+#: bin/openerp.ui.h:810
+msgid "OpenERP - Confirmation"
+msgstr "OpenERP - Potvrzení"
+
+#: bin/openerp.ui.h:811
+msgid "OpenERP - Dialog"
+msgstr "OpenERP - Dialogové okno"
+
+#: bin/openerp.ui.h:812
+msgid "OpenERP - Export to CSV"
+msgstr "OpenERP - Export do CSV"
+
+#: bin/openerp.ui.h:813
+msgid "OpenERP - Forms"
+msgstr "OpenERP - Formuláře"
+
+#: bin/openerp.ui.h:814
+msgid "OpenERP - License"
+msgstr "OpenERP - Licence"
+
+#: bin/openerp.ui.h:815
+msgid "OpenERP - Login"
+msgstr "OpenERP - Přihlášení"
+
+#: bin/openerp.ui.h:816
+msgid "OpenERP - Preferences"
+msgstr "OpenERP - Předvolby"
+
+#: bin/openerp.ui.h:817
+msgid "OpenERP - Search"
+msgstr "OpenERP - Hledat"
+
+#: bin/openerp.ui.h:818
+msgid "OpenERP - Selection"
+msgstr "OpenERP - Výběr"
+
+#: bin/openerp.ui.h:819
+msgid "OpenERP - Tree Resources"
+msgstr "OpenERP - Strom zdrojů"
+
+#: bin/openerp.ui.h:820
+msgid "OpenERP Message"
+msgstr "Zpráva OpenERP"
+
+#: bin/openerp.ui.h:821
+msgid "OpenERP license"
+msgstr "OpenERP licence"
+
+#: bin/openerp.ui.h:822
+msgid "OpenERP, Field Preference target"
+msgstr "OpenERP, Cíl předvoleb polí"
+
+#: bin/openerp.ui.h:823 bin/win_error.ui.h:11
+msgid "Other comments:"
+msgstr "Ostatní komentáře:"
+
+#: bin/openerp.ui.h:824
+msgid "Password:"
+msgstr "Heslo:"
+
+#: bin/openerp.ui.h:825
+msgid "Paste selected text"
+msgstr "Vložit vybraný text"
+
+#: bin/openerp.ui.h:826
+msgid "Phone number:"
+msgstr "Telefonní číslo:"
+
+#: bin/openerp.ui.h:827
+msgid "Port:"
+msgstr "Port:"
+
+#: bin/openerp.ui.h:828
+msgid "Pre_vious"
+msgstr "Pře_dchozí"
+
+#: bin/openerp.ui.h:829
+msgid "Pre_vious Tip"
+msgstr "Pře_dchozí tip"
+
+#: bin/openerp.ui.h:830
+msgid "Previe_w before print"
+msgstr "Náhle_d před tiskem"
+
+#: bin/openerp.ui.h:831
+msgid "Previe_w in editor"
+msgstr "Náhled v editoru"
+
+#: bin/openerp.ui.h:832
+msgid "Previous"
+msgstr "Předchozí"
+
+#: bin/openerp.ui.h:833
+msgid "Previous Tab"
+msgstr "Předchozí záložka"
+
+#: bin/openerp.ui.h:834
+msgid "Previous editable widget"
+msgstr "Předchozí upravitelná pomůcka"
+
+#: bin/openerp.ui.h:835
+msgid "Previous record"
+msgstr "Předchozí záznam"
+
+#: bin/openerp.ui.h:836
+msgid "Previous tab"
+msgstr "Předchozí záložka"
+
+#: bin/openerp.ui.h:837
+msgid "Print documents"
+msgstr "Tisk dokumentů"
+
+#: bin/openerp.ui.h:838
+msgid "Protocol connection:"
+msgstr "Protokol spojení:"
+
+#: bin/openerp.ui.h:839
+msgid "Read my Requests"
+msgstr "Číst moje požadavky"
+
+#: bin/openerp.ui.h:840
+msgid "Reloa_d / Undo"
+msgstr "Obnovit/Zpět"
+
+#: bin/openerp.ui.h:841
+msgid "Reload"
+msgstr "Znovu načíst"
+
+#: bin/openerp.ui.h:842
+msgid "Remove List"
+msgstr "Odstranit seznam"
+
+#: bin/openerp.ui.h:843
+msgid "Repeat latest _action"
+msgstr "Opakuj akci"
+
+#: bin/openerp.ui.h:844
+msgid "Requests:"
+msgstr "Požadavky:"
+
+#: bin/openerp.ui.h:845
+msgid "Restore a database"
+msgstr "Obnovit databázi"
+
+#: bin/openerp.ui.h:846
+msgid "Right"
+msgstr "Vpravo"
+
+#: bin/openerp.ui.h:847
+msgid "Right Toolbar"
+msgstr "Pravý nástrojový panel"
+
+#: bin/openerp.ui.h:848
+msgid "Save"
+msgstr "Uložit"
+
+#: bin/openerp.ui.h:849
+msgid "Save List"
+msgstr "Uložit seznam"
+
+#: bin/openerp.ui.h:850
+msgid "Save and Close window"
+msgstr "Uložit a zavřít okno"
+
+#: bin/openerp.ui.h:851
+msgid "Save as CSV"
+msgstr "Uložit jako CSV"
+
+#: bin/openerp.ui.h:852
+msgid "Search ID:"
+msgstr "Hledat ID:"
+
+#: bin/openerp.ui.h:853
+msgid "Send a new request"
+msgstr "Poslat nový požadavek"
+
+#: bin/openerp.ui.h:854
+msgid "September 2008"
+msgstr "Říjen 2008"
+
+#: bin/openerp.ui.h:855
+msgid "Server"
+msgstr "Server"
+
+#: bin/openerp.ui.h:857
+msgid "Shortcuts"
+msgstr "Zkratky"
+
+#: bin/openerp.ui.h:858
+msgid "State:"
+msgstr "Stav:"
+
+#: bin/openerp.ui.h:859
+msgid "Support Request"
+msgstr "Požadavek technické pomoci"
+
+#: bin/openerp.ui.h:860
+msgid "Switch to list/form"
+msgstr "Přepnout seznam/formulář"
+
+#: bin/openerp.ui.h:861
+msgid "Switch view mode"
+msgstr "Přepnout režim zobrazení"
+
+#: bin/openerp.ui.h:862
+msgid "Tabs default orientation"
+msgstr "Výchozí orientace záložek"
+
+#: bin/openerp.ui.h:863
+msgid "Tabs default position"
+msgstr "Výchozí pozice záložek"
+
+#: bin/openerp.ui.h:864
+msgid "Text Delimiter:"
+msgstr "Textový omezovač:"
+
+#: bin/openerp.ui.h:865
+msgid "Text _and Icons"
+msgstr "Text _a ikony"
+
+#: bin/openerp.ui.h:866
+msgid ""
+"This is the URL of the OpenERP server. Use 'localhost' if the server is "
+"installed on this computer. Click on 'Change' to change the address."
+msgstr ""
+"Toto je URL serveru OpenERP. Pokud je server instalován na tomto počítači "
+"použijte 'localhost'. Ke změně adresy klikněte na 'Změnit'."
+
+#: bin/openerp.ui.h:867
+msgid ""
+"This is the password of the 'admin' user that will be created in your new "
+"database."
+msgstr ""
+"Toto je heslo uživatele 'admin', které bude vytvořeno ve vaši nové databázi."
+
+#: bin/openerp.ui.h:868
+msgid ""
+"This is the password of the 'admin' user that will be created in your new "
+"database. It has to be the same than the above field."
+msgstr ""
+"Toto je heslo uživatele 'admin', který bude vytvořen ve vaši nové databázi. "
+"Musí být stejné jako pole nad ním."
+
+#: bin/openerp.ui.h:869
+msgid ""
+"This is the password of the user that have the rights to administer "
+"databases. This is not a OpenERP user, just a super administrator. If you "
+"did not changed it, the password is 'admin' after installation."
+msgstr ""
+"Toto je heslo uživatele, který má práva spravovat databázi. Toto není "
+"uživatel OpenERP, jen super správce. Heslo po instalaci je 'admin', pokud "
+"jste jej nezměnili."
+
+#: bin/openerp.ui.h:870
+msgid "Tip of the Day"
+msgstr "Tip dne"
+
+#: bin/openerp.ui.h:871
+msgid "Today"
+msgstr "Dnes"
+
+#: bin/openerp.ui.h:872
+msgid "Top"
+msgstr "Nahoře"
+
+#: bin/openerp.ui.h:873
+msgid "UTF-8"
+msgstr "UTF-8"
+
+#: bin/openerp.ui.h:874
+msgid "Urgent"
+msgstr "Naléhavé"
+
+#: bin/openerp.ui.h:875
+msgid "User _Manual"
+msgstr "Uživatelská _příručka"
+
+#: bin/openerp.ui.h:876
+msgid "User:"
+msgstr "Uživatel:"
+
+#: bin/openerp.ui.h:877
+msgid "Vertical"
+msgstr "Svislý"
+
+#: bin/openerp.ui.h:878
+msgid "Very Urgent"
+msgstr "Velmi naléhavé"
+
+#: bin/openerp.ui.h:879
+msgid "View _logs"
+msgstr "Přehled úprav"
+
+#: bin/openerp.ui.h:881
+msgid "Write anyway"
+msgstr "Přesto zapsat"
+
+#: bin/openerp.ui.h:882
+msgid "Your selection:"
+msgstr "Váš výběr:"
+
+#: bin/openerp.ui.h:883
+msgid "_About..."
+msgstr "_O aplikaci..."
+
+#: bin/openerp.ui.h:884
+msgid "_Add"
+msgstr "_Přidat"
+
+#: bin/openerp.ui.h:885
+msgid "_Backup database"
+msgstr "_Zálohovat databázi"
+
+#: bin/openerp.ui.h:886
+msgid "_Connect..."
+msgstr "_Připojit"
+
+#: bin/openerp.ui.h:887
+msgid "_Contact"
+msgstr "_Kontakt"
+
+#: bin/openerp.ui.h:888
+msgid "_Contextual Help"
+msgstr "_Kontextová nápověda"
+
+#: bin/openerp.ui.h:889
+msgid "_Delete"
+msgstr "_Smazat"
+
+#: bin/openerp.ui.h:890
+msgid "_Disconnect"
+msgstr "_Odpojit"
+
+#: bin/openerp.ui.h:891
+msgid "_Display a new tip next time?"
+msgstr "_Ukázat příště nový tip?"
+
+#: bin/openerp.ui.h:892
+msgid "_Domain:"
+msgstr "_Doména"
+
+#: bin/openerp.ui.h:893
+msgid "_Download Migrations Code"
+msgstr "_Stáhnout kód stěhování"
+
+#: bin/openerp.ui.h:894
+msgid "_Duplicate"
+msgstr "_Duplikace"
+
+#: bin/openerp.ui.h:895
+msgid "_Execute a plugin"
+msgstr "_Spustit zásuvný modul"
+
+#: bin/openerp.ui.h:896
+msgid "_Extension Manager"
+msgstr "_Správce rozšíření"
+
+#: bin/openerp.ui.h:897
+msgid "_File"
+msgstr "_Soubor"
+
+#: bin/openerp.ui.h:898
+msgid "_Forms"
+msgstr "_Formuláře"
+
+#: bin/openerp.ui.h:899
+msgid "_Go to resource ID..."
+msgstr "Jdi na záznam ID"
+
+#: bin/openerp.ui.h:900
+msgid "_Help"
+msgstr "_Nápověda"
+
+#: bin/openerp.ui.h:901
+msgid "_Icons only"
+msgstr "Pouze _ikony"
+
+#: bin/openerp.ui.h:902
+msgid "_License"
+msgstr "_Licence"
+
+#: bin/openerp.ui.h:903
+msgid "_Menu"
+msgstr "Nabídka"
+
+#: bin/openerp.ui.h:904
+msgid "_Menubar"
+msgstr "_Panel menu"
+
+#: bin/openerp.ui.h:905
+msgid "_Migrate Database(s)"
+msgstr "_Stěhovat databázi"
+
+#: bin/openerp.ui.h:906
+msgid "_New"
+msgstr "_Nový"
+
+#: bin/openerp.ui.h:907
+msgid "_New Home Tab"
+msgstr "_Nová domovská záložka"
+
+#: bin/openerp.ui.h:908
+msgid "_New database"
+msgstr "_Nová databáze"
+
+#: bin/openerp.ui.h:909
+msgid "_Nothing"
+msgstr "_Žádné"
+
+#: bin/openerp.ui.h:910
+msgid "_Open"
+msgstr "_Otevřít"
+
+#: bin/openerp.ui.h:911
+msgid "_OpenERP"
+msgstr "_OpenERP"
+
+#: bin/openerp.ui.h:912
+msgid "_Options"
+msgstr "_Nastavení"
+
+#: bin/openerp.ui.h:913
+msgid "_Plugins"
+msgstr "_Zásuvné moduly"
+
+#: bin/openerp.ui.h:914
+msgid "_Preferences"
+msgstr "_Nastavení"
+
+#: bin/openerp.ui.h:915
+msgid "_Preview in PDF"
+msgstr "Náhled v P_DF"
+
+#: bin/openerp.ui.h:916
+msgid "_Print"
+msgstr "_Tisk"
+
+#: bin/openerp.ui.h:917
+msgid "_Read my requests"
+msgstr "Zobrazit požadavky"
+
+#: bin/openerp.ui.h:918
+msgid "_Remove"
+msgstr "_Odstranit"
+
+#: bin/openerp.ui.h:919
+msgid "_Restore database"
+msgstr "_Obnovit databázi"
+
+#: bin/openerp.ui.h:920
+msgid "_Save"
+msgstr "_Uložit"
+
+#: bin/openerp.ui.h:921
+msgid "_Save options"
+msgstr "_Uložit volby"
+
+#: bin/openerp.ui.h:922
+msgid "_Send a request"
+msgstr "Vytvořit požadavek"
+
+#: bin/openerp.ui.h:923
+msgid "_Shortcuts"
+msgstr "_Zkratky"
+
+#: bin/openerp.ui.h:924
+msgid "_Text only"
+msgstr "Pouze _text"
+
+#: bin/openerp.ui.h:925
+msgid "_User"
+msgstr "_Uživatel"
+
+#: bin/openerp.ui.h:926
+msgid "_Waiting Requests"
+msgstr "Požadavky ve frontě"
+
+#: bin/openerp.ui.h:927
+msgid "_only for you"
+msgstr "_pouze pro vás"
+
+#: bin/openerp.ui.h:928
+msgid "admin"
+msgstr "admin"
+
+#: bin/openerp.ui.h:929
+msgid "for _all users"
+msgstr "pro _všechny uživatele"
+
+#: bin/openerp.ui.h:930
+msgid "http://localhost:8069"
+msgstr "http://localhost:8069"
+
+#: bin/win_error.ui.h:1
+msgid ""
+"<b>Publisher Warranty Contract.</b>\n"
+"<i>\n"
+"Your request will be sent to OpenERP and publisher warranty team will reply "
+"you shortly.\n"
+"</i>"
+msgstr ""
+"<b>Smlouva záruka vydavatele .</b>\n"
+"<i>\n"
+"Váš požadavek byl zaslán do OpenERP a tým záruky vydavatele vám brzy "
+"odpoví.\n"
+"</i>"
+
+#: bin/win_error.ui.h:5
+msgid "<i>_Details</i>"
+msgstr "<i>_Podrobnosti</i>"
+
+#: bin/win_error.ui.h:6
+msgid "<i>_Publisher Warranty</i>"
+msgstr "<i>_Záruka vydavatele</i>"
+
+#: bin/win_error.ui.h:7
+msgid "<i>_Support Request</i>"
+msgstr "<i>_Požadavek technické podpory</i>"
+
+#: bin/win_error.ui.h:8
+msgid "Click here for details about the publisher warranty proposition"
+msgstr "Klikněte zde pro více informací o návrhu záruky vydavatele"
+
+#: bin/win_error.ui.h:9
+msgid "Details"
+msgstr "Podrobnosti"
+
+#: bin/win_error.ui.h:10
+msgid "Explain what you did:"
+msgstr "Vysvětlete co jste udělali:"
+
+#: bin/win_error.ui.h:12
+msgid "Problems summary:"
+msgstr "Přehled problémů:"
+
+#: bin/win_error.ui.h:13
+msgid "Send to Publisher Warranty Team"
+msgstr "Odeslat záručnímu týmu vydavatele"
+
+#: bin/win_error.ui.h:14
+msgid "label"
+msgstr "označení"
